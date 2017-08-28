@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="c62638ce-f440-459e-beb0-df5ffa9e8143">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ТипыСвязей" category="Object">
+				<xr:TypeId>8c2b64e3-5cef-4a09-a466-018de035292a</xr:TypeId>
+				<xr:ValueId>6f2248f0-07f7-4896-9c84-e65ef37a29bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ТипыСвязей" category="Ref">
+				<xr:TypeId>e3ed0b67-f69e-4e0c-be07-e7a40bd49383</xr:TypeId>
+				<xr:ValueId>9ff3676a-8d90-45c4-8eb1-219c8dc62d71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ТипыСвязей" category="Selection">
+				<xr:TypeId>51def9a3-bff2-4a16-a8d4-f7b02e576b08</xr:TypeId>
+				<xr:ValueId>9dcf4a6a-e19f-4c0f-8a6b-c9d2d9992493</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ТипыСвязей" category="List">
+				<xr:TypeId>10125f78-3959-4518-ae85-29ea108b4942</xr:TypeId>
+				<xr:ValueId>89e9cd97-6058-4c53-b5e1-8709e083771a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ТипыСвязей" category="Manager">
+				<xr:TypeId>da3199c0-66b0-4f7a-877b-f87ca4502069</xr:TypeId>
+				<xr:ValueId>a3b28fe5-adc8-444f-813c-1db3f5e8cafd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыСвязей</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

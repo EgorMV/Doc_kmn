@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<BusinessProcess uuid="39a0e421-4e8c-4bec-a2a7-e8a7010f0761">
+		<InternalInfo>
+			<xr:GeneratedType name="BusinessProcessObject.Согласование" category="Object">
+				<xr:TypeId>61416d10-aa64-467e-9a87-b0341258166d</xr:TypeId>
+				<xr:ValueId>038c1397-584b-41a2-a087-d1e6395c08ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessRef.Согласование" category="Ref">
+				<xr:TypeId>86febe65-717d-4128-bb3f-4b6b6291fcf1</xr:TypeId>
+				<xr:ValueId>e11157e3-2d57-4889-966e-496a19b6658d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessSelection.Согласование" category="Selection">
+				<xr:TypeId>28bf837b-e266-437b-8e4c-8d294feb7b54</xr:TypeId>
+				<xr:ValueId>87b42cf0-976b-4fef-a6dd-f7588b9c175a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessList.Согласование" category="List">
+				<xr:TypeId>54e34acf-edff-4ea0-b8cb-2869081ff64e</xr:TypeId>
+				<xr:ValueId>095c25b0-35ff-4232-91c3-5702cdd93ea6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessManager.Согласование" category="Manager">
+				<xr:TypeId>77eece93-0530-4465-8e61-253e8427b4c3</xr:TypeId>
+				<xr:ValueId>2763cb2b-1700-4460-98fc-91df21f6590b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="BusinessProcessRoutePointRef.Согласование" category="RoutePointRef">
+				<xr:TypeId>d76c86f8-ea5a-4599-9934-553416c7bcaa</xr:TypeId>
+				<xr:ValueId>b16a0108-18b2-48ed-9e5a-ddf9d36287aa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Согласование</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</BusinessProcess>
+</MetaDataObject>

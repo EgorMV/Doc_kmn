@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="1b23baf1-47d7-473b-a2b9-f64efdaff21e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыПроектов" category="Object">
+				<xr:TypeId>693c1958-7ffc-4c2e-8938-54359ad41166</xr:TypeId>
+				<xr:ValueId>b820c0b7-be27-4a0c-8aca-5628961e9fb2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыПроектов" category="Ref">
+				<xr:TypeId>61d9bc4e-18d4-4d9b-b923-917c2aa2cbd7</xr:TypeId>
+				<xr:ValueId>a71a6393-777b-4f5a-b24d-bb194689e2b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыПроектов" category="Selection">
+				<xr:TypeId>7a7583cf-666d-4b0f-a259-a963e199cf4c</xr:TypeId>
+				<xr:ValueId>3a05ae0c-06e6-479a-9b24-8904d51d4233</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыПроектов" category="List">
+				<xr:TypeId>fcbcf424-ae8a-4996-918e-9e73b6e068f2</xr:TypeId>
+				<xr:ValueId>c303186f-9153-41f7-9b12-e9775a3ebdc9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыПроектов" category="Manager">
+				<xr:TypeId>05593ad7-557c-4f18-99aa-4967eaf4361f</xr:TypeId>
+				<xr:ValueId>ea4a2ca3-a9ac-4866-928d-95c354e7824b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыПроектов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

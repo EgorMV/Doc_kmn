@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="62aa87cc-5d5b-4ba3-bfcd-14907c8a90bf">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГрифыДоступа" category="Object">
+				<xr:TypeId>2d6e851e-cd8b-4a19-9bdd-077a76ad12f8</xr:TypeId>
+				<xr:ValueId>5300e904-6f2c-44d5-b204-4ae23b9588fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГрифыДоступа" category="Ref">
+				<xr:TypeId>c1aef425-531b-4808-a66a-b0db1acd7e15</xr:TypeId>
+				<xr:ValueId>49654587-9477-4920-b665-ae7cf90a8a88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГрифыДоступа" category="Selection">
+				<xr:TypeId>1770c841-e97a-48d5-948a-82a054e3b2d7</xr:TypeId>
+				<xr:ValueId>145fe13c-0e22-4783-9ff9-4dbdd6e2ebaa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГрифыДоступа" category="List">
+				<xr:TypeId>c57a9fc7-5911-4192-b479-cc2f6feadd9a</xr:TypeId>
+				<xr:ValueId>ade8d1a8-1d10-4075-a928-630712ab63ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГрифыДоступа" category="Manager">
+				<xr:TypeId>4264a1d1-dfbc-4cef-934f-eb2e02d6380b</xr:TypeId>
+				<xr:ValueId>f10b41bd-bcca-456f-ba75-585b4fed0fc1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГрифыДоступа</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

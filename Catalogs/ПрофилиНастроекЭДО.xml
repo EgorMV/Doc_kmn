@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="f9a69ead-9662-47c3-97c6-75c4c1b5c7fb">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПрофилиНастроекЭДО" category="Object">
+				<xr:TypeId>5aedd298-e3bc-4102-acbf-615b718cfe61</xr:TypeId>
+				<xr:ValueId>8c3df2f1-775a-46f3-9bc0-a2846ae667da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПрофилиНастроекЭДО" category="Ref">
+				<xr:TypeId>a1823b96-2a17-444d-9253-190a92f4c0f6</xr:TypeId>
+				<xr:ValueId>a58f2adb-4179-462a-82f5-20ff034e60d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПрофилиНастроекЭДО" category="Selection">
+				<xr:TypeId>00802063-cdd2-4fac-88c6-1dfa8604aaf6</xr:TypeId>
+				<xr:ValueId>6e21efd3-8406-44c4-b897-3d515f68e800</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПрофилиНастроекЭДО" category="List">
+				<xr:TypeId>66a92992-d810-4b87-926f-84052342ba72</xr:TypeId>
+				<xr:ValueId>26b9f072-5863-4acf-a623-87049593f24e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПрофилиНастроекЭДО" category="Manager">
+				<xr:TypeId>e20b6bbe-acc7-497d-99e3-ca5ec20d3def</xr:TypeId>
+				<xr:ValueId>fa49a117-2479-4b9a-80b6-7c8aaef6d552</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПрофилиНастроекЭДО</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

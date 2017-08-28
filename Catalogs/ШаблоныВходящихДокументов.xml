@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="13031a3a-8cda-4410-be67-a056a1248564">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ШаблоныВходящихДокументов" category="Object">
+				<xr:TypeId>1da044c6-2bc7-42a7-aa64-308ae5ba824c</xr:TypeId>
+				<xr:ValueId>d541d074-a8d4-435e-86e5-b60f51074783</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ШаблоныВходящихДокументов" category="Ref">
+				<xr:TypeId>c0bcd6d6-8470-4d74-92cd-bc5f8130e00b</xr:TypeId>
+				<xr:ValueId>23c0946e-0cc5-4a92-b3d7-8477a0540c6d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ШаблоныВходящихДокументов" category="Selection">
+				<xr:TypeId>4aa22cd1-78b4-4240-a237-8e30b1ac0953</xr:TypeId>
+				<xr:ValueId>ed4ee80e-0bd3-4891-80f1-5976929c64e7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ШаблоныВходящихДокументов" category="List">
+				<xr:TypeId>92fda339-d53e-4a78-84ab-a9bd06a0a6ab</xr:TypeId>
+				<xr:ValueId>b30b3198-39c9-4d97-b6be-b5aaadd647ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ШаблоныВходящихДокументов" category="Manager">
+				<xr:TypeId>e240f6dd-c704-4ad9-8730-36ddbd0221e5</xr:TypeId>
+				<xr:ValueId>b7a088fc-51e9-460e-a7a4-7448d5a567c4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ШаблоныВходящихДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

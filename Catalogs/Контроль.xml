@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="063493d2-f894-4d9b-a312-ec5dc1d1e563">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Контроль" category="Object">
+				<xr:TypeId>b2ff1cfd-4585-4193-b968-11875fce2e1a</xr:TypeId>
+				<xr:ValueId>1c0e542e-aad4-497d-8d8b-cb7466ffc7cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Контроль" category="Ref">
+				<xr:TypeId>3d6958cd-0126-4017-8984-dd89a00a5785</xr:TypeId>
+				<xr:ValueId>1b39f52f-eff1-40af-8e40-aa2c0ffa7322</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Контроль" category="Selection">
+				<xr:TypeId>df2c8dd1-19e3-43b2-8e3b-ff52ecc9ea02</xr:TypeId>
+				<xr:ValueId>5c5362ca-1c1e-4eb3-8b2d-d4001fc3ca7f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Контроль" category="List">
+				<xr:TypeId>a468883a-2aaa-4b1e-bf51-1215a4bd8928</xr:TypeId>
+				<xr:ValueId>cbf02fcb-c7c0-4a6f-a075-3b6a510abe5d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Контроль" category="Manager">
+				<xr:TypeId>a1606daf-e2a9-4052-8b38-d0995920c8e2</xr:TypeId>
+				<xr:ValueId>744ec8c3-d92c-4514-b434-0c279e87553e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Контроль</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="9937416d-92c8-4374-a58c-a64ab58e2cd6">
+				<Properties>
+					<Name>Контроль</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormCommandBarImportant</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

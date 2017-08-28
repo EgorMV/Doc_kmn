@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Enum uuid="a07486a3-3b2e-4944-84be-64c096384738">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыПланированияПроекта" category="Ref">
+				<xr:TypeId>d62fe8fe-6c51-42ee-952f-4083be6d9d76</xr:TypeId>
+				<xr:ValueId>45597aef-bc7c-48c3-9093-cd6b77676c04</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыПланированияПроекта" category="Manager">
+				<xr:TypeId>79d1cc43-349f-4a54-beb7-4053de4f9f9b</xr:TypeId>
+				<xr:ValueId>6f1e289a-a101-4e36-924d-696340208b90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыПланированияПроекта" category="List">
+				<xr:TypeId>af4f20f2-9963-46a7-a154-f83f087f58a6</xr:TypeId>
+				<xr:ValueId>4abf4d55-1519-4aca-8181-42678e4276a6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыПланированияПроекта</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

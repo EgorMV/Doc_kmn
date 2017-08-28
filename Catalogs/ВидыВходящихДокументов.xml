@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="0fb3f1a5-c60c-45de-bc53-2df3d118ad47">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыВходящихДокументов" category="Object">
+				<xr:TypeId>99dcec56-1cfe-4e5b-b05f-b5d0fdb44796</xr:TypeId>
+				<xr:ValueId>0dfea6ff-fcea-43f5-abfe-5e18daa91626</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыВходящихДокументов" category="Ref">
+				<xr:TypeId>83458014-1631-49bf-826d-c8a6d50ee7c7</xr:TypeId>
+				<xr:ValueId>72d095bc-f14d-460d-b1d3-046af5c75437</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыВходящихДокументов" category="Selection">
+				<xr:TypeId>c53eb9ea-bd54-4114-a8b0-cb905b9a4425</xr:TypeId>
+				<xr:ValueId>6b268667-a71b-4c51-8e9e-4dc5fba384a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыВходящихДокументов" category="List">
+				<xr:TypeId>51321e03-a781-430b-86c4-7f1aac4f2a5c</xr:TypeId>
+				<xr:ValueId>e483de6e-d740-49f5-96d5-82f785c51c1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыВходящихДокументов" category="Manager">
+				<xr:TypeId>53b9db31-86aa-4a77-901e-44e8643bd6fa</xr:TypeId>
+				<xr:ValueId>59713ea1-704d-41fa-bfb0-e84226f3d740</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыВходящихДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

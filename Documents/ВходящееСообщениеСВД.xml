@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Document uuid="b13e729c-174a-4f51-9ac8-1e543f081898">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВходящееСообщениеСВД" category="Object">
+				<xr:TypeId>b2520991-e15c-48dd-9cd2-ef61d72eb9e5</xr:TypeId>
+				<xr:ValueId>36ca62c5-d0b2-4118-8179-609399ef4e02</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВходящееСообщениеСВД" category="Ref">
+				<xr:TypeId>4e0d2818-93f8-4379-b0b8-b3b7b701ed0a</xr:TypeId>
+				<xr:ValueId>4d454507-b77c-4ad1-9d7b-e859cc215e6c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВходящееСообщениеСВД" category="Selection">
+				<xr:TypeId>442721a8-8f08-4f71-8621-54c75e949245</xr:TypeId>
+				<xr:ValueId>7a29d908-9612-4b03-83d1-f03859d35a52</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВходящееСообщениеСВД" category="List">
+				<xr:TypeId>1b7e085a-1d31-4e67-9944-a4ae8b4d2985</xr:TypeId>
+				<xr:ValueId>16263582-c1be-4ab0-913d-dd6345f5f3e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВходящееСообщениеСВД" category="Manager">
+				<xr:TypeId>94087f61-9fe0-4504-8cac-5afc066003ed</xr:TypeId>
+				<xr:ValueId>92d33ea0-6e65-4aa5-ab17-9ed64048b673</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВходящееСообщениеСВД</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

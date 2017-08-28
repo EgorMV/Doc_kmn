@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Enum uuid="7a76fcfb-fd4a-4270-b986-73f7a66c8150">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусПроверкиЭП" category="Ref">
+				<xr:TypeId>df881093-5001-4f21-a93f-e9737f73705a</xr:TypeId>
+				<xr:ValueId>a2360635-6023-4aee-b058-cbee09ae6819</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусПроверкиЭП" category="Manager">
+				<xr:TypeId>0e7f4d3b-af7e-4190-ad79-e9f0b2ecabda</xr:TypeId>
+				<xr:ValueId>50edb797-c1a3-49d7-b6d7-0d2df3283d70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусПроверкиЭП" category="List">
+				<xr:TypeId>eac2a27b-ef09-4f4c-a786-0c4f0fbb379a</xr:TypeId>
+				<xr:ValueId>7cdb72b0-12cb-4cfd-914a-0464f3e80c5a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусПроверкиЭП</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="08365ce3-c212-4a66-a2bc-e54b99e3a7a9">
+				<Properties>
+					<Name>ПодписьДействительна</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5be12102-8c96-4169-8d7b-cec2b319c131">
+				<Properties>
+					<Name>ПодписьНедействительна</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6dcc91c2-9af7-46a2-a5eb-e4fe6f3027fb">
+				<Properties>
+					<Name>ПодписьНеПроверена</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="04e451a0-bc0e-44f6-84a9-5bdde601ec0e">
+				<Properties>
+					<Name>ПодписиНет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

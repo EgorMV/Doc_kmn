@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Enum uuid="838a6b72-2549-4a3b-a556-27a556375986">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияКонтроля" category="Ref">
+				<xr:TypeId>c642fdd5-9c40-4f07-a22e-ce85c45ab6cb</xr:TypeId>
+				<xr:ValueId>617ce090-4ddd-4675-a55b-3405f0876e63</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияКонтроля" category="Manager">
+				<xr:TypeId>83c420b5-9be6-4d6c-9ff2-30ffeab93931</xr:TypeId>
+				<xr:ValueId>1d23cc8e-de80-4c84-83ec-37ed3bd045d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияКонтроля" category="List">
+				<xr:TypeId>00930b6f-f8cd-46ea-a57d-9ddbd537e038</xr:TypeId>
+				<xr:ValueId>8c6921f2-102a-4b63-86f9-f6a8203fbf66</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияКонтроля</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="07e77acb-7da4-441f-ae23-bedbbaeae734">
+				<Properties>
+					<Name>НаКонтролеНесколько</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6c0903c0-019e-4a8a-9e35-323c7fd5b05b">
+				<Properties>
+					<Name>СнятСКонтроля</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="eced705d-1aa8-46d9-829d-c51aa67917b6">
+				<Properties>
+					<Name>СмешанноНесколько</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7ed2e8fe-8b76-4006-9491-f63e6fd2f630">
+				<Properties>
+					<Name>СнятСКонтроляНесколько</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0903635f-9c1f-4a78-a92d-2203f9cda93c">
+				<Properties>
+					<Name>НаКонтроле</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

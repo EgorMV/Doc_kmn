@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="b3cf3153-4bc3-47b5-9b13-98578eb1c132">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПапкиВнутреннихДокументов" category="Object">
+				<xr:TypeId>9531e93e-2c76-4723-bb25-d7e6cda25e81</xr:TypeId>
+				<xr:ValueId>fcf39e92-c1d7-4674-bdb0-52944169da1e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПапкиВнутреннихДокументов" category="Ref">
+				<xr:TypeId>8e4c88d5-bdda-472f-98d3-f37901424a66</xr:TypeId>
+				<xr:ValueId>71416be0-48ce-41cb-9833-3441f049bc61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПапкиВнутреннихДокументов" category="Selection">
+				<xr:TypeId>9e9bfe85-e6d5-41ef-8ca7-b44ed5cdf939</xr:TypeId>
+				<xr:ValueId>a8984597-cb91-4b62-b4f2-9d4d65383286</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПапкиВнутреннихДокументов" category="List">
+				<xr:TypeId>8074fdbe-2474-47fa-80bd-fc3574a84cc4</xr:TypeId>
+				<xr:ValueId>f343ad43-53da-4d60-b661-a157fa529977</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПапкиВнутреннихДокументов" category="Manager">
+				<xr:TypeId>e2bc4394-77aa-48b8-a172-34df0cbc58bf</xr:TypeId>
+				<xr:ValueId>0e8554be-7e75-4b2c-a39b-b5f29504bf81</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПапкиВнутреннихДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Hierarchical>true</Hierarchical>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>150</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="0c3f77bb-e296-40e9-932b-e36e29683221">
+				<Properties>
+					<Name>Описание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c86a9320-9a80-4f9d-b55b-d78e0a9ed43e">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3df5f2c1-353b-4fc1-b078-9935fe05d609">
+				<Properties>
+					<Name>ДатаСоздания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

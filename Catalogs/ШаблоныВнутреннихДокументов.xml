@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="c9814aaf-8806-46a6-9242-192b6c603764">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ШаблоныВнутреннихДокументов" category="Object">
+				<xr:TypeId>518bcecf-f318-4122-8344-8a242631015a</xr:TypeId>
+				<xr:ValueId>bc7b4a88-c1bd-428b-969a-6b73ad298d46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ШаблоныВнутреннихДокументов" category="Ref">
+				<xr:TypeId>ff97abaf-c0d1-4b5e-bcbc-28a792be60a0</xr:TypeId>
+				<xr:ValueId>1a0eab5d-fae8-4972-ba13-ee852b5aab87</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ШаблоныВнутреннихДокументов" category="Selection">
+				<xr:TypeId>9a53195d-98fd-4089-9263-90c86d9f584e</xr:TypeId>
+				<xr:ValueId>2678a038-2480-4959-b322-f8eefb8973f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ШаблоныВнутреннихДокументов" category="List">
+				<xr:TypeId>21269062-672b-43ba-bd0b-0eb1b36855d1</xr:TypeId>
+				<xr:ValueId>7427f0e5-d337-4c58-9382-f2678217e47b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ШаблоныВнутреннихДокументов" category="Manager">
+				<xr:TypeId>3dc0cd89-4829-4bb5-b94d-9b4923f25815</xr:TypeId>
+				<xr:ValueId>fa2166d7-1e72-460d-8326-ec2326188c45</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ШаблоныВнутреннихДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

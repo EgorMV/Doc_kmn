@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="ceab853e-78ec-4527-99f1-6cc8928ce5dd">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Проекты" category="Object">
+				<xr:TypeId>0b633789-97e7-4530-8894-cc0ccca50b39</xr:TypeId>
+				<xr:ValueId>e15f248b-222a-430f-8b27-ccbc5ad35dbb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Проекты" category="Ref">
+				<xr:TypeId>f1682fce-8ee1-40f7-a845-b207b6d9943b</xr:TypeId>
+				<xr:ValueId>a0f95854-eb94-4063-98c5-d71ca5fe1569</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Проекты" category="Selection">
+				<xr:TypeId>b5ead705-e0b2-4b4a-a28e-fc70795d7e44</xr:TypeId>
+				<xr:ValueId>eba97559-330b-419a-81ea-fb008e28675e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Проекты" category="List">
+				<xr:TypeId>c07ed3c3-2c59-47e3-b03b-a5e4696a1d7e</xr:TypeId>
+				<xr:ValueId>fcb2f6e7-c3d1-4e75-a92f-eb1a33bd8fda</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Проекты" category="Manager">
+				<xr:TypeId>ef7f7df3-4377-4377-b56c-2b8c9b993398</xr:TypeId>
+				<xr:ValueId>a5b5090e-b654-4e82-b028-b1a8276136a8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Проекты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Hierarchical>true</Hierarchical>
+			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
+			<CodeLength>11</CodeLength>
+			<DescriptionLength>150</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="0ae48e57-0519-451e-928a-a1cff2befaed">
+				<Properties>
+					<Name>ТекущийПланОкончание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c14ea332-be4e-44ef-8b27-d17bbe9dde3e">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="20e82dfd-f003-47fb-a007-00372dcc93db">
+				<Properties>
+					<Name>Описание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4c8c3117-6375-4e14-a18f-9eb46a612c96">
+				<Properties>
+					<Name>СсылкаНаВнешнийФайл</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bfa6cc3f-eba9-4032-b0ee-7bf8ddee7a02">
+				<Properties>
+					<Name>ДатаПоследнейЗагрузкиИзВнешнегоФайла</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="63a2c3d1-ebe7-48d5-ae2f-521949adbfdb">
+				<Properties>
+					<Name>ГрафикРаботы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГрафикиРаботы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="520fe84d-865a-4371-91e2-009e1600fb90">
+				<Properties>
+					<Name>Состояние</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияПроектов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8e1806d5-5d45-4555-9199-a74f52eda435">
+				<Properties>
+					<Name>ЕдиницаТрудозатратЗадач</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ЕдиницыТрудозатрат</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bcbbf3ff-0a2b-4d8b-a359-de573f0d7c08">
+				<Properties>
+					<Name>РедактируетсяВСтороннейСистеме</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cd5ec185-a33e-458c-a20f-b1bf8eb4f821">
+				<Properties>
+					<Name>ТекущийПланТрудозатраты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="40e012b6-c170-4234-8e63-4de7f338ce6f">
+				<Properties>
+					<Name>ГрифДоступа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГрифыДоступа</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2421e7fb-9ce1-4d0a-84db-5e879295c6b0">
+				<Properties>
+					<Name>СпособПланирования</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыПланированияПроекта</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="135a8f35-880d-4033-8536-f6ed53cbc1a6">
+				<Properties>
+					<Name>ЕдиницаДлительностиЗадач</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ЕдиницыДлительности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d1e1c35b-410d-4d68-94e1-9459a2f587ea">
+				<Properties>
+					<Name>СписыватьЗатратыНаПроект</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="203447fe-810a-482a-977f-8676f7afb611">
+				<Properties>
+					<Name>ТекущийПланНачало</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="db22ae85-4da1-474c-a69b-e1a0ba1d2d0d">
+				<Properties>
+					<Name>Заказчик</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="25cee3fe-7b9c-444d-99d2-c8e3453fdd66">
+				<Properties>
+					<Name>ВидПроекта</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыПроектов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d5b020c2-7779-4b84-8aaf-580fc72f1103">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a9b9e6dc-ab6e-466f-8831-739d4b705ef3">
+				<Properties>
+					<Name>Руководитель</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="de52fb01-adff-4e70-b623-b35c430b2b57">
+				<Properties>
+					<Name>ЗагруженИзMSProject</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

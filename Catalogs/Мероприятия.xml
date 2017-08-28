@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="20e57c96-ed24-4d92-b446-922bce4db890">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Мероприятия" category="Object">
+				<xr:TypeId>816bafd5-6f73-47bc-85c5-0335f15048b7</xr:TypeId>
+				<xr:ValueId>47b958a5-ecf0-4ca2-8847-3217bfa05836</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Мероприятия" category="Ref">
+				<xr:TypeId>4d29a96d-bce3-41be-b0b1-30a2ccf51b47</xr:TypeId>
+				<xr:ValueId>90359a8c-7674-40dc-b6e8-9af7355f7f05</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Мероприятия" category="Selection">
+				<xr:TypeId>744e4822-0b8f-473a-a29e-7aa416bfdc96</xr:TypeId>
+				<xr:ValueId>77f90d01-4494-4ba2-966c-a870b304299d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Мероприятия" category="List">
+				<xr:TypeId>1e0bd886-4ebf-4786-bd3b-84fdd6679ac6</xr:TypeId>
+				<xr:ValueId>91837d01-2535-4967-9ca4-fcc9c11e24ea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Мероприятия" category="Manager">
+				<xr:TypeId>7ff6bc42-a534-4009-8a90-70b98127424a</xr:TypeId>
+				<xr:ValueId>6ebe407f-7734-4d60-9f55-c9a997bac2c0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Мероприятия</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="f46563b6-c3f5-4435-bf89-8f32e1d7db64">
+				<Properties>
+					<Name>СоздатьМероприятиеНаОсновании</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormCommandBarCreateBasedOn</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="ceafdbdb-f1db-4736-8f89-2f5097623e9c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВизыСогласования" category="Object">
+				<xr:TypeId>2ee5968b-487b-48db-bd0d-613eade0bc02</xr:TypeId>
+				<xr:ValueId>ad71bf30-1f0b-4881-b24a-e65c2dd2df7a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВизыСогласования" category="Ref">
+				<xr:TypeId>8d67c0b8-fb7b-451f-af1c-332d67993438</xr:TypeId>
+				<xr:ValueId>50520fc1-35c6-48b3-bde0-973103b6acc7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВизыСогласования" category="Selection">
+				<xr:TypeId>d8b82fb4-8bfe-4bfe-a4a5-ca27899b45ce</xr:TypeId>
+				<xr:ValueId>2e0258bf-5d9e-42e6-aba9-87814dfc016e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВизыСогласования" category="List">
+				<xr:TypeId>5ccea416-1c29-4fb3-9791-a9c89b5d3b69</xr:TypeId>
+				<xr:ValueId>a5e601c2-bcb7-44f1-96ad-be56fb9182cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВизыСогласования" category="Manager">
+				<xr:TypeId>ae9e5d5b-1c7c-4498-a885-d3b1c61dfe0c</xr:TypeId>
+				<xr:ValueId>b587182e-c7f4-48fb-9c5a-f47a5e6e4090</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВизыСогласования</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

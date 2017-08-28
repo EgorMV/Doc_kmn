@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<InformationRegister uuid="4bdf7856-ae31-491a-ba5b-3d9dba34710a">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ЖурналПередачиДокументов" category="Record">
+				<xr:TypeId>974b35e8-2392-459a-8d4a-e619e679cfd9</xr:TypeId>
+				<xr:ValueId>45c70420-d297-4c2c-8a9a-3a57aadb31f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ЖурналПередачиДокументов" category="Manager">
+				<xr:TypeId>d13e62b2-3f7d-4bed-b7f3-3a1393663cc6</xr:TypeId>
+				<xr:ValueId>d4c3ccb1-e03f-4d19-95cf-c28ad049d60d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ЖурналПередачиДокументов" category="Selection">
+				<xr:TypeId>bdda9772-3a65-4d19-81a3-4113a6d209c4</xr:TypeId>
+				<xr:ValueId>5867449b-2e84-4e9e-be57-16bf9f27ec5f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ЖурналПередачиДокументов" category="List">
+				<xr:TypeId>3c647fba-e4f0-437f-8a43-72529efd0e47</xr:TypeId>
+				<xr:ValueId>22bf6df8-9161-4c77-ba61-9fade760c9b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЖурналПередачиДокументов" category="RecordSet">
+				<xr:TypeId>bddb8c0e-3ba5-49da-ab29-6a2cddab98e0</xr:TypeId>
+				<xr:ValueId>256a4c6a-722b-4d2d-8135-61ceed20aa90</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЖурналПередачиДокументов" category="RecordKey">
+				<xr:TypeId>99e2106e-8c0b-4eb3-9db6-af1eda696e46</xr:TypeId>
+				<xr:ValueId>493b3ab0-f9ba-4634-812f-ffade1b1fa16</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЖурналПередачиДокументов" category="RecordManager">
+				<xr:TypeId>d1c915b1-2c9c-47bf-9731-1bd12f863d62</xr:TypeId>
+				<xr:ValueId>7db7491c-876f-4549-8694-ceb095b92ca6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЖурналПередачиДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="70c76c91-9b2d-4621-8f94-5c24b599359d">
+				<Properties>
+					<Name>ОткрытьФормуСпискаДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelGoTo</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

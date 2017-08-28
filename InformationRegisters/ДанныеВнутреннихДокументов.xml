@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<InformationRegister uuid="3f147547-dbf4-446f-90cc-a3fdd6d204aa">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ДанныеВнутреннихДокументов" category="Record">
+				<xr:TypeId>8875ffa7-35e8-4e04-824b-c4b37d75108a</xr:TypeId>
+				<xr:ValueId>17bc971b-cb5b-49b9-ac04-8ac0939afca9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ДанныеВнутреннихДокументов" category="Manager">
+				<xr:TypeId>ca1d04be-c6be-4800-9337-bcc7320ad203</xr:TypeId>
+				<xr:ValueId>406c6cb9-fee5-46ae-af26-e13a850128d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ДанныеВнутреннихДокументов" category="Selection">
+				<xr:TypeId>e24dbe61-ba76-4022-8884-de9949fc6698</xr:TypeId>
+				<xr:ValueId>df9554ba-69b2-4169-bd8c-ceaa00ea91a8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ДанныеВнутреннихДокументов" category="List">
+				<xr:TypeId>4d1d88ef-bf2b-4aeb-b94a-8aa5598c75e8</xr:TypeId>
+				<xr:ValueId>b5a5546f-3162-46f7-933b-7ee69f46e2b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ДанныеВнутреннихДокументов" category="RecordSet">
+				<xr:TypeId>ce280820-2ca2-4976-9e63-3f07bbf85707</xr:TypeId>
+				<xr:ValueId>aefa2e18-7b60-477e-9056-bfdc645ab266</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ДанныеВнутреннихДокументов" category="RecordKey">
+				<xr:TypeId>24cd0f8b-0cd9-4e67-9d79-dbd0840ff30b</xr:TypeId>
+				<xr:ValueId>8f07ed9a-8ec5-425b-a517-36050b6d1a96</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ДанныеВнутреннихДокументов" category="RecordManager">
+				<xr:TypeId>8f5f5b6d-f275-494d-b909-8189049c1927</xr:TypeId>
+				<xr:ValueId>b53db71d-9e99-4b94-b16f-58700fe346ae</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДанныеВнутреннихДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="8a2b5350-14fc-40b9-9177-aad6777750ec">
+				<Properties>
+					<Name>ЕстьЗадачи</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="764f7621-5dd0-419a-a311-1fde88bfda71">
+				<Properties>
+					<Name>ЕстьФайлы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="6d381e20-59cc-42de-9790-49c23640a29e">
+				<Properties>
+					<Name>Содержание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="bf9a8320-9532-4e23-898e-64fea4b0227d">
+				<Properties>
+					<Name>Папка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПапкиВнутреннихДокументов</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="9cb611ba-fc8f-4683-92ec-0ca35807f79d">
+				<Properties>
+					<Name>РегистрационныйНомер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.РегистрационныйНомер</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="2c5b48f5-de45-4ece-b0ba-9782147d2613">
+				<Properties>
+					<Name>Исполнен</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="034fc024-dbcc-4c0d-bcb5-a5d22a5b33df">
+				<Properties>
+					<Name>Проект</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Проекты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="35b8f232-12ee-4e41-a5d9-0f5736f0de7a">
+				<Properties>
+					<Name>ДатаОкончанияДействия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="0dbcdca4-4d6b-4b77-b9e6-2392d96dea15">
+				<Properties>
+					<Name>СтатусЭП</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтатусПроверкиЭП</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="c23aa6c7-f32b-4f01-b2b1-0a267d6a4ee4">
+				<Properties>
+					<Name>СостояниеКонтроля</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияКонтроля</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="b6b46e05-e9a8-4737-afe5-0ca5a16cf3bb">
+				<Properties>
+					<Name>ПоследнийЭтап</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЭтапыОбработкиДокументов</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="93627f43-b5e8-48dc-a732-63ce6bcbadb0">
+				<Properties>
+					<Name>ВидДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыВнутреннихДокументов</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="4d6a1dda-02df-4c72-a862-418544b61225">
+				<Properties>
+					<Name>ВопросДеятельности</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВопросыДеятельности</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="2cb8dd5e-225d-4ff0-b93e-2ccebc37e803">
+				<Properties>
+					<Name>НеДействует</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="4cd03954-3c82-40c0-bdc2-f27e1d741dbc">
+				<Properties>
+					<Name>СрокКонтроляОбщий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="82a1d7e7-0489-4c53-a6f2-83f0b81625e9">
+				<Properties>
+					<Name>НоменклатураДел</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.НоменклатураДел</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="e5389d35-59c3-4587-b62e-efc48daf73e0">
+				<Properties>
+					<Name>ПодписанУтвержден</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="15b5db20-8320-4485-9a93-678dbb91e99b">
+				<Properties>
+					<Name>Сумма</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="e220b32c-45e3-4a5a-a181-45d79d9274a2">
+				<Properties>
+					<Name>РегистрационныйНомерИДата</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>60</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="5bafaa7a-23d3-41c4-99b6-06d94a87b510">
+				<Properties>
+					<Name>ЧисловойНомер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="d64825d6-82a1-48ad-bb6e-6a1ce3a721d2">
+				<Properties>
+					<Name>Создал</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="89060330-2aec-421e-8749-93e4e948d000">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="6175d021-328e-4fc2-9408-6f1f56515e82">
+				<Properties>
+					<Name>КонтрагентыДляСписков</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="58dc4e94-1682-4970-b89d-ec1efe2f8075">
+				<Properties>
+					<Name>ДатаСоздания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="4ee41a37-052a-4ebc-92f6-756e4975183f">
+				<Properties>
+					<Name>СрокИсполнения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="7f62de72-0ca8-4289-9002-401e40f637d2">
+				<Properties>
+					<Name>Подготовил</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="52633f83-4913-4c05-861e-28c3255ff349">
+				<Properties>
+					<Name>Заголовок</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>250</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="4ee14c3e-960e-4a82-977e-3214d94d983b">
+				<Properties>
+					<Name>ПодписанЭП</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="5150b04a-dcef-4cba-abe8-2961705423bb">
+				<Properties>
+					<Name>Зарегистрировал</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="874b54cf-fee1-4ef8-b7e3-577db3d7a046">
+				<Properties>
+					<Name>Валюта</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="bc67ca62-a115-4b98-841b-09f0466b238f">
+				<Properties>
+					<Name>ПодписанВсеми</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="4a9584ea-c5b8-429c-a884-b7d19d781afb">
+				<Properties>
+					<Name>Дело</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДелаХраненияДокументов</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="9a02a568-ec28-4306-9be7-b3559d604347">
+				<Properties>
+					<Name>ДатаРегистрации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="a3425639-d660-4489-b6a5-7e00a51ce5bb">
+				<Properties>
+					<Name>СрокКонтроля</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="34049e7e-05bb-4cda-9caf-849c5bb94e0b">
+				<Properties>
+					<Name>Наименование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="e0efc179-2ff5-474b-b524-40cf2e023f70">
+				<Properties>
+					<Name>СодержитОригинал</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="622d5f9c-ac56-4f84-b0d7-56ea8f013b43">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="9fcd64f4-af35-4c06-989d-ce17c0d345d0">
+				<Properties>
+					<Name>Подразделение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтруктураПредприятия</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="bbfbb953-319a-4182-9e54-59f51d4bc794">
+				<Properties>
+					<Name>Утвердил</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="4bb5e756-ccde-404f-948c-f432a8c71865">
+				<Properties>
+					<Name>ДатаНачалаДействия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="e9da0831-532b-4d53-b5de-230125b15633">
+				<Properties>
+					<Name>Код</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>15</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="c66a722f-0e36-4a0b-b272-14e8fa6a0e73">
+				<Properties>
+					<Name>ПредставлениеСостояния</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="6147d6e4-4277-42bc-b354-79dd5a3a497e">
+				<Properties>
+					<Name>ЕстьКатегории</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="25d18fd5-c52b-43c9-96b4-2e742d6757be">
+				<Properties>
+					<Name>ДатаСортировки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="1e8a8b88-b149-4846-816e-5c36c4fe2a82">
+				<Properties>
+					<Name>ПометкаУдаления</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="ad88409d-5e7b-4794-81a0-371e2f4e3b00">
+				<Properties>
+					<Name>Документ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВнутренниеДокументы</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

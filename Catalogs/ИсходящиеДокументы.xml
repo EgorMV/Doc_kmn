@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="c3b6a048-4a73-4190-b889-74757c1504ca">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИсходящиеДокументы" category="Object">
+				<xr:TypeId>812625ff-76f9-4b69-8ad5-2c456ba982ac</xr:TypeId>
+				<xr:ValueId>760bdc04-aa30-4fd2-9c1e-f4d290a536ca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИсходящиеДокументы" category="Ref">
+				<xr:TypeId>63203a3d-fffc-4d39-9c7b-4950e603b0f3</xr:TypeId>
+				<xr:ValueId>d6c0e5fd-b697-43c7-96f6-3096c8e1d4f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИсходящиеДокументы" category="Selection">
+				<xr:TypeId>fa1bffef-c76d-4d16-b4cd-5ecfee93031e</xr:TypeId>
+				<xr:ValueId>60a73c72-b3e6-4244-870d-8637885f0575</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИсходящиеДокументы" category="List">
+				<xr:TypeId>4c1db471-01da-4d61-9ced-ae67244457c9</xr:TypeId>
+				<xr:ValueId>e2bc47df-14f4-4f59-b0df-d35468283db3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИсходящиеДокументы" category="Manager">
+				<xr:TypeId>d5664327-dc0d-404d-8c46-ee1a4ff3986c</xr:TypeId>
+				<xr:ValueId>970bc76e-eba4-4bb0-8347-c3cb06efca54</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИсходящиеДокументы</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="7eedb4b7-1de6-462c-83fc-8c134de69fab">
+				<Properties>
+					<Name>СоздатьИсходящийДокументНаОсновании</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormCommandBarCreateBasedOn</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

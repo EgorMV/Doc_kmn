@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="fef058db-9729-43cb-a793-a748ffec09cd">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЭтапыОбработкиДокументов" category="Object">
+				<xr:TypeId>b61c468f-0999-4ff7-b080-856dc371f7fc</xr:TypeId>
+				<xr:ValueId>8701f4b5-5dfc-4878-8bf9-e086da622974</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЭтапыОбработкиДокументов" category="Ref">
+				<xr:TypeId>856cc3ff-0bda-46c5-96a9-44d2339b337a</xr:TypeId>
+				<xr:ValueId>bec7fdd7-1f27-4b0e-94b1-25d3295ddb24</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЭтапыОбработкиДокументов" category="Selection">
+				<xr:TypeId>8c636551-3a7c-4f95-9ff7-8554a6531e08</xr:TypeId>
+				<xr:ValueId>7fbd686b-2159-4416-bba7-0fd4945263fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЭтапыОбработкиДокументов" category="List">
+				<xr:TypeId>f1a0fc58-828f-48fb-9d9a-fd8b9eeff81b</xr:TypeId>
+				<xr:ValueId>44425314-318d-4d4d-8227-847a7ed89e5b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЭтапыОбработкиДокументов" category="Manager">
+				<xr:TypeId>4d47721f-cf63-4144-81b6-0f9b2b4836c5</xr:TypeId>
+				<xr:ValueId>c56152dd-0a9f-4e4e-90cb-c23916ecf8a8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЭтапыОбработкиДокументов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

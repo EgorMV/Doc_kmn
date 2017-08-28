@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Document uuid="5cddf244-adb1-4b80-b605-626535913902">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВходящееПисьмо" category="Object">
+				<xr:TypeId>e8ce2d71-d67a-4505-b8f4-585f56bea9e7</xr:TypeId>
+				<xr:ValueId>69999088-82fd-4467-aaec-04fdf151a837</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВходящееПисьмо" category="Ref">
+				<xr:TypeId>65edf51d-7dd2-4f2b-b7c9-301dc43a4e33</xr:TypeId>
+				<xr:ValueId>b57cdf7d-fcac-4f14-8a2b-ff2f18c41d62</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВходящееПисьмо" category="Selection">
+				<xr:TypeId>493d0860-7b5d-49a1-a536-81d58569f06b</xr:TypeId>
+				<xr:ValueId>65866022-6e57-4b13-b057-3903afcc41c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВходящееПисьмо" category="List">
+				<xr:TypeId>851c657b-a5fb-473e-9d99-4a88cacd691d</xr:TypeId>
+				<xr:ValueId>db0f41bf-b44f-4d3d-a164-4d8c0b362782</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВходящееПисьмо" category="Manager">
+				<xr:TypeId>845e4438-ea54-47b0-8476-ab549a38179d</xr:TypeId>
+				<xr:ValueId>952238fe-2026-49a7-9b9b-d8edbb7fe3b1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВходящееПисьмо</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

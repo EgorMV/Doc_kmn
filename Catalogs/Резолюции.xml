@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Catalog uuid="ff94ea36-9a62-4978-9b65-7d46fa22a537">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Резолюции" category="Object">
+				<xr:TypeId>ef382a55-658a-4037-ad29-79708fa92c4e</xr:TypeId>
+				<xr:ValueId>f69db877-f5a4-4230-87f0-bcc0f64a6be8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Резолюции" category="Ref">
+				<xr:TypeId>10b0a696-8d62-44d2-a8ed-42063d8ce4cd</xr:TypeId>
+				<xr:ValueId>1537d4a9-bfb2-4fc8-9905-aa2f1194a017</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Резолюции" category="Selection">
+				<xr:TypeId>c1dd01ef-6fca-4f92-943b-f67991d45ba1</xr:TypeId>
+				<xr:ValueId>6a9a7f33-f5b6-4816-9dec-40f23d811e57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Резолюции" category="List">
+				<xr:TypeId>5c0daec2-05e8-4ebd-ad4a-e5ea993b81dc</xr:TypeId>
+				<xr:ValueId>2bc5420c-2751-4939-8e74-b4342606018b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Резолюции" category="Manager">
+				<xr:TypeId>cf52be96-688e-4d88-ba62-61787cefcc17</xr:TypeId>
+				<xr:ValueId>28826f58-b640-4f74-8a68-47be8886df86</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Резолюции</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

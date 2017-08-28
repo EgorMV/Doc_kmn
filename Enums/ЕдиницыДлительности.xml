@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<Enum uuid="ab4fca2e-baad-4721-9637-31ea24632601">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ЕдиницыДлительности" category="Ref">
+				<xr:TypeId>e8c35d44-29c2-4f2e-bb9a-252746a9d327</xr:TypeId>
+				<xr:ValueId>84626ecd-a2dd-4051-9bc2-31ea4c5e1332</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ЕдиницыДлительности" category="Manager">
+				<xr:TypeId>e7d04a28-311c-420e-b830-8580574ba806</xr:TypeId>
+				<xr:ValueId>d9ced8b5-a4f6-460d-8f7d-e99dc3f7fa72</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ЕдиницыДлительности" category="List">
+				<xr:TypeId>1bed8163-09de-4fd4-b8bd-147d8aac37a4</xr:TypeId>
+				<xr:ValueId>3097cc69-cdb0-4d23-8a96-55adab6ee4cc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЕдиницыДлительности</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+	<InformationRegister uuid="2141f7f8-7e78-4a54-a8bd-815aebce3163">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ФактическиеТрудозатраты" category="Record">
+				<xr:TypeId>3b054c58-e8d4-4d69-b195-a1f3e4856d1f</xr:TypeId>
+				<xr:ValueId>6ac37b84-7540-4494-acfe-3a768820bbc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ФактическиеТрудозатраты" category="Manager">
+				<xr:TypeId>6b1ca3e5-e947-4a20-91b2-310d92769262</xr:TypeId>
+				<xr:ValueId>b378f70b-ad4f-482a-8912-d78bfb9c93b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ФактическиеТрудозатраты" category="Selection">
+				<xr:TypeId>c1e0e3e8-1cc8-4686-9eb2-4b968990710e</xr:TypeId>
+				<xr:ValueId>8195e7c1-66d9-48ff-a50b-a7dcf7488ef9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ФактическиеТрудозатраты" category="List">
+				<xr:TypeId>c9236a3d-9e66-47d7-a6d3-72fc1ff363cb</xr:TypeId>
+				<xr:ValueId>e91c15b4-9fdd-4db5-98cc-e611df8e6a76</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ФактическиеТрудозатраты" category="RecordSet">
+				<xr:TypeId>eb235eee-d920-4670-8637-41478ea627ce</xr:TypeId>
+				<xr:ValueId>3ed2774c-5830-4cac-8eb3-c3391bf01a85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ФактическиеТрудозатраты" category="RecordKey">
+				<xr:TypeId>3a66c5da-4aa0-47d9-980e-23625eb8dee3</xr:TypeId>
+				<xr:ValueId>79802860-5c1b-422a-ba27-87f4c714786d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ФактическиеТрудозатраты" category="RecordManager">
+				<xr:TypeId>ecfda398-9e5d-4372-88de-efdb973cf478</xr:TypeId>
+				<xr:ValueId>28a0cbcc-287c-422a-9c44-d82ce1e7467b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФактическиеТрудозатраты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="b2ab78bf-db2f-4617-a8aa-b4196b90f261">
+				<Properties>
+					<Name>ТрудозатратыПоИсточнику</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelGoTo</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>
