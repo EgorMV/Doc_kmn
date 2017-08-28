@@ -1918,6 +1918,9 @@
 													<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
 													<ContextMenu name="ВидДокументаКонтекстноеМеню" id="6"/>
 													<ExtendedTooltip name="ВидДокументаExtendedTooltip" id="1161"/>
+													<Events>
+														<Event name="OnChange" callType="After">КМН_ВидДокументаПриИзмененииПосле</Event>
+													</Events>
 												</InputField>
 												<UsualGroup name="ГруппаНаименованиеКод" id="1786">
 													<Title>
@@ -2049,7 +2052,7 @@
 															<ContextMenu name="СрокДействияСтрокаКонтекстноеМеню" id="562"/>
 															<ExtendedTooltip name="СрокДействияСтрокаExtendedTooltip" id="1189"/>
 															<Events>
-																<Event name="StartChoice" callType="Before">КМН_СрокДействияСтрокаНачалоВыбораВместо</Event>
+																<Event name="StartChoice" callType="Override">КМН_СрокДействияСтрокаНачалоВыбораВместо</Event>
 															</Events>
 														</InputField>
 														<InputField name="УтверждениеТекст" id="2307">
@@ -3734,6 +3737,19 @@
 							</ToolTip>
 							<ExtendedTooltip name="ГруппаАвансовыйОтчетРасширеннаяПодсказка" id="2376"/>
 							<ChildItems>
+								<LabelDecoration name="НадписьРасхождениеВСуточных" id="2519">
+									<Visible>false</Visible>
+									<TextColor>style:SpecialTextColor</TextColor>
+									<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Проверка суточных</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="НадписьРасхождениеВСуточныхКонтекстноеМеню" id="2520"/>
+									<ExtendedTooltip name="НадписьРасхождениеВСуточныхРасширеннаяПодсказка" id="2521"/>
+								</LabelDecoration>
 								<Table name="КМН_ТаблицаАвансовыйОтчетРасходы" id="2405">
 									<Representation>List</Representation>
 									<TitleLocation>Auto</TitleLocation>
@@ -3905,18 +3921,6 @@
 										</InputField>
 									</ChildItems>
 								</Table>
-								<LabelDecoration name="НадписьРасхождениеВСуточных" id="2519">
-									<Visible>false</Visible>
-									<TextColor>style:SpecialTextColor</TextColor>
-									<Title formatted="false">
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Проверьте суточные! Количество дней отличается от плана на %1</v8:content>
-										</v8:item>
-									</Title>
-									<ContextMenu name="НадписьРасхождениеВСуточныхКонтекстноеМеню" id="2520"/>
-									<ExtendedTooltip name="НадписьРасхождениеВСуточныхРасширеннаяПодсказка" id="2521"/>
-								</LabelDecoration>
 								<Table name="КМН_ТаблицаАвансовыйОтчетДоходы" id="2380">
 									<Representation>List</Representation>
 									<TitleLocation>Auto</TitleLocation>
