@@ -2055,6 +2055,20 @@
 																<Event name="StartChoice" callType="Override">КМН_СрокДействияСтрокаНачалоВыбораВместо</Event>
 															</Events>
 														</InputField>
+														<InputField name="КМН_ФактДатаВозврата" id="2550">
+															<DataPath>КМН_ФактДатаВозврата</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Факт. дата возврата</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="КМН_ФактДатаВозвратаКонтекстноеМеню" id="2551"/>
+															<ExtendedTooltip name="КМН_ФактДатаВозвратаРасширеннаяПодсказка" id="2552"/>
+															<Events>
+																<Event name="OnChange" callType="Override">КМН_КМН_ФактДатаВозвратаПриИзмененииВместо</Event>
+															</Events>
+														</InputField>
 														<InputField name="УтверждениеТекст" id="2307">
 															<DataPath>УтверждениеТекст</DataPath>
 															<AutoMaxWidth>false</AutoMaxWidth>
@@ -3378,6 +3392,17 @@
 										</Button>
 									</ChildItems>
 								</CommandBar>
+								<LabelDecoration name="КМН_НадписьПериодКомандировки" id="2547">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>КМН надпись период командировки</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="КМН_НадписьПериодКомандировкиКонтекстноеМеню" id="2548"/>
+									<ExtendedTooltip name="КМН_НадписьПериодКомандировкиРасширеннаяПодсказка" id="2549"/>
+								</LabelDecoration>
 								<LabelDecoration name="КМН_НадписьПродление" id="2522">
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<TextColor>style:SpecialTextColor</TextColor>
@@ -3737,10 +3762,55 @@
 							</ToolTip>
 							<ExtendedTooltip name="ГруппаАвансовыйОтчетРасширеннаяПодсказка" id="2376"/>
 							<ChildItems>
+								<UsualGroup name="ГруппаРасчетАвансовогоОтчета" id="2559">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа расчет авансового отчета</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа расчет авансового отчета</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаРасчетАвансовогоОтчетаРасширеннаяПодсказка" id="2560"/>
+									<ChildItems>
+										<InputField name="КМН_ДатаАвансовогоОтчета" id="2553">
+											<DataPath>КМН_ДатаАвансовогоОтчета</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Дата отчета</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="КМН_ДатаАвансовогоОтчетаКонтекстноеМеню" id="2554"/>
+											<ExtendedTooltip name="КМН_ДатаАвансовогоОтчетаРасширеннаяПодсказка" id="2555"/>
+											<Events>
+												<Event name="OnChange" callType="Override">КМН_КМН_ДатаАвансовогоОтчетаПриИзмененииВместо</Event>
+											</Events>
+										</InputField>
+										<LabelDecoration name="НадписьПериодАвансовогоОтчета" id="2556">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Суточные с НачПериода по КонПериода</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="НадписьПериодАвансовогоОтчетаКонтекстноеМеню" id="2557"/>
+											<ExtendedTooltip name="НадписьПериодАвансовогоОтчетаРасширеннаяПодсказка" id="2558"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
 								<LabelDecoration name="НадписьРасхождениеВСуточных" id="2519">
 									<Visible>false</Visible>
+									<AutoMaxWidth>false</AutoMaxWidth>
 									<TextColor>style:SpecialTextColor</TextColor>
-									<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<Font ref="style:NormalTextFont" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -12557,6 +12627,34 @@
 					</Type>
 				</Column>
 			</Columns>
+		</Attribute>
+		<Attribute name="КМН_ФактДатаВозврата" id="210">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фактическая дата возврата из командировки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КМН_ДатаАвансовогоОтчета" id="211">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата отчета</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
 		</Attribute>
 		<ConditionalAppearance>
 			<dcsset:item>
