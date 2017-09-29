@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.3">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -253,7 +253,7 @@
 								<Button name="ОбщаяКомандаСоздатьПисьмоНаОсновании" id="737">
 									<Type>CommandBarButton</Type>
 									<CommandName>CommonCommand.СоздатьПисьмоНаОсновании</CommandName>
-									<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+									<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -321,7 +321,7 @@
 										<Button name="ОбщаяКомандаСоздатьБизнесПроцесс" id="739">
 											<Type>CommandBarButton</Type>
 											<CommandName>CommonCommand.СоздатьБизнесПроцесс</CommandName>
-											<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+											<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -352,37 +352,37 @@
 								<Button name="СправочникВнутренниеДокументыСоздатьВнутреннийДокументНаОсновании" id="679">
 									<Type>CommandBarButton</Type>
 									<CommandName>Catalog.ВнутренниеДокументы.Command.СоздатьВнутреннийДокументНаОсновании</CommandName>
-									<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+									<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="СправочникВнутренниеДокументыСоздатьВнутреннийДокументНаОснованииРасширеннаяПодсказка" id="680"/>
 								</Button>
 								<Button name="СправочникИсходящиеДокументыСоздатьИсходящийДокументНаОсновании" id="727">
 									<Type>CommandBarButton</Type>
 									<CommandName>Catalog.ИсходящиеДокументы.Command.СоздатьИсходящийДокументНаОсновании</CommandName>
-									<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+									<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="СправочникИсходящиеДокументыСоздатьИсходящийДокументНаОснованииРасширеннаяПодсказка" id="728"/>
 								</Button>
 								<Button name="ОбщаяКомандаСоздатьЗаписьЖурналаПередачи" id="729">
 									<Type>CommandBarButton</Type>
 									<CommandName>CommonCommand.СоздатьЗаписьЖурналаПередачи</CommandName>
-									<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+									<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="ОбщаяКомандаСоздатьЗаписьЖурналаПередачиРасширеннаяПодсказка" id="730"/>
 								</Button>
 								<Button name="СправочникЗаписиРабочегоКалендаряСоздатьЗаписьКалендаряНаОсновании" id="731">
 									<Type>CommandBarButton</Type>
 									<CommandName>Catalog.ЗаписиРабочегоКалендаря.Command.СоздатьЗаписьКалендаряНаОсновании</CommandName>
-									<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+									<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="СправочникЗаписиРабочегоКалендаряСоздатьЗаписьКалендаряНаОснованииРасширеннаяПодсказка" id="732"/>
 								</Button>
 								<Button name="ОбщаяКомандаСозданиеСвязанныхОбъектов" id="733">
 									<Type>CommandBarButton</Type>
 									<CommandName>CommonCommand.СозданиеСвязанныхОбъектов</CommandName>
-									<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+									<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="ОбщаяКомандаСозданиеСвязанныхОбъектовРасширеннаяПодсказка" id="734"/>
 								</Button>
 								<Button name="СправочникМероприятияСоздатьНаОсновании" id="735">
 									<Type>CommandBarButton</Type>
 									<CommandName>Catalog.Мероприятия.Command.СоздатьМероприятиеНаОсновании</CommandName>
-									<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+									<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="СправочникМероприятияСоздатьНаОснованииРасширеннаяПодсказка" id="736"/>
 								</Button>
 							</ChildItems>
@@ -412,13 +412,13 @@
 						<Button name="ОбщаяКомандаЗаполнениеОбъекта" id="681">
 							<Type>CommandBarButton</Type>
 							<CommandName>CommonCommand.ЗаполнениеОбъекта</CommandName>
-							<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+							<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 							<ExtendedTooltip name="ОбщаяКомандаЗаполнениеОбъектаРасширеннаяПодсказка" id="682"/>
 						</Button>
 						<Button name="ОбщаяКомандаОтчетыОбъекта" id="683">
 							<Type>CommandBarButton</Type>
 							<CommandName>CommonCommand.ОтчетыОбъекта</CommandName>
-							<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+							<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 							<ExtendedTooltip name="ОбщаяКомандаОтчетыОбъектаРасширеннаяПодсказка" id="684"/>
 						</Button>
 					</ChildItems>
@@ -601,14 +601,14 @@
 									<Type>CommandBarButton</Type>
 									<OnlyInAllActions>false</OnlyInAllActions>
 									<CommandName>Catalog.Контроль.Command.Контроль</CommandName>
-									<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+									<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="СправочникКонтрольКонтрольРасширеннаяПодсказка" id="644"/>
 								</Button>
 								<Button name="ОбщаяКомандаОтправитьПоЭлектроннойПочте" id="645">
 									<Type>CommandBarButton</Type>
 									<OnlyInAllActions>false</OnlyInAllActions>
 									<CommandName>CommonCommand.ОтправитьПоЭлектроннойПочте</CommandName>
-									<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+									<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 									<ExtendedTooltip name="ОбщаяКомандаОтправитьПоЭлектроннойПочтеРасширеннаяПодсказка" id="646"/>
 								</Button>
 								<Button name="Подписать" id="101">
@@ -641,14 +641,14 @@
 											<Type>CommandBarButton</Type>
 											<OnlyInAllActions>false</OnlyInAllActions>
 											<CommandName>CommonCommand.ДобавитьВнешнийШтрихкод</CommandName>
-											<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+											<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 											<ExtendedTooltip name="ОбщаяКомандаДобавитьВнешнийШтрихкодExtendedTooltip" id="438"/>
 										</Button>
 										<Button name="ОбщаяКомандаСохранитьШтрихкодВФайл" id="154">
 											<Type>CommandBarButton</Type>
 											<OnlyInAllActions>false</OnlyInAllActions>
 											<CommandName>CommonCommand.СохранитьШтрихкодВФайл</CommandName>
-											<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+											<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 											<ExtendedTooltip name="ОбщаяКомандаСохранитьШтрихкодВФайлExtendedTooltip" id="439"/>
 										</Button>
 									</ChildItems>
@@ -775,7 +775,7 @@
 											<Type>CommandBarButton</Type>
 											<OnlyInAllActions>false</OnlyInAllActions>
 											<CommandName>InformationRegister.ФактическиеТрудозатраты.Command.ТрудозатратыПоИсточнику</CommandName>
-											<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+											<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -797,7 +797,7 @@
 									<Type>CommandBarButton</Type>
 									<OnlyInAllActions>false</OnlyInAllActions>
 									<CommandName>CommonCommand.СохранитьВсе</CommandName>
-									<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+									<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -810,7 +810,7 @@
 									<Type>CommandBarButton</Type>
 									<OnlyInAllActions>false</OnlyInAllActions>
 									<CommandName>CommonCommand.НапечататьВсе</CommandName>
-									<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+									<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -1921,7 +1921,7 @@
 									</SearchControlAddition>
 									<ChildItems>
 										<LabelField name="ПроектыНаименование" id="405">
-											<DataPath>4/4</DataPath>
+											<DataPath>~Проекты.Description</DataPath>
 											<Width>30</Width>
 											<ContextMenu name="ПроектыНаименованиеКонтекстноеМеню" id="406"/>
 											<ExtendedTooltip name="ПроектыНаименованиеExtendedTooltip" id="494"/>
@@ -2093,7 +2093,7 @@
 									<Button name="СписокКонтекстноеМенюСправочникКонтрольКонтроль" id="1006">
 										<Type>CommandBarButton</Type>
 										<CommandName>Catalog.Контроль.Command.Контроль</CommandName>
-										<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/434</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ref</DataPath>
 										<ExtendedTooltip name="СписокКонтекстноеМенюСправочникКонтрольКонтрольРасширеннаяПодсказка" id="1007"/>
 									</Button>
 									<Button name="СписокКонтекстноеМенюПодписать" id="104">
@@ -2178,7 +2178,7 @@
 									<ExtendedTooltip name="ГруппаФайлыЗадачиРасширеннаяПодсказка" id="636"/>
 									<ChildItems>
 										<PictureField name="Файлы" id="28">
-											<DataPath>1/19</DataPath>
+											<DataPath>~Список.ИндексКартинкиФайлы</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -2206,7 +2206,7 @@
 											<ExtendedTooltip name="ФайлыExtendedTooltip" id="507"/>
 										</PictureField>
 										<PictureField name="Задачи" id="30">
-											<DataPath>1/36</DataPath>
+											<DataPath>~Список.Задачи</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -2250,7 +2250,7 @@
 									<ExtendedTooltip name="ГруппаЭПКатегорииРасширеннаяПодсказка" id="638"/>
 									<ChildItems>
 										<PictureField name="ПодписанЭП" id="97">
-											<DataPath>1/72</DataPath>
+											<DataPath>~Список.СтатусПроверкиЭП</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -2278,7 +2278,7 @@
 											<ExtendedTooltip name="ПодписанЭПРасширеннаяПодсказка" id="509"/>
 										</PictureField>
 										<PictureField name="ЕстьКатегории" id="131">
-											<DataPath>1/86</DataPath>
+											<DataPath>~Список.ЕстьКатегорииДанных</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<TitleLocation>None</TitleLocation>
 											<ToolTip>
@@ -2302,7 +2302,7 @@
 									</ChildItems>
 								</ColumnGroup>
 								<PictureField name="СостояниеКонтроля" id="542">
-									<DataPath>1/119</DataPath>
+									<DataPath>~Список.СостояниеКонтроля</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<ToolTip>
 										<v8:item>
@@ -2323,7 +2323,7 @@
 									<ExtendedTooltip name="СостояниеКонтроляРасширеннаяПодсказка" id="544"/>
 								</PictureField>
 								<LabelField name="Наименование" id="10">
-									<DataPath>1/134</DataPath>
+									<DataPath>~Список.Заголовок</DataPath>
 									<DefaultItem>true</DefaultItem>
 									<AutoCellHeight>true</AutoCellHeight>
 									<Width>25</Width>
@@ -2331,7 +2331,7 @@
 									<ExtendedTooltip name="НаименованиеExtendedTooltip" id="511"/>
 								</LabelField>
 								<LabelField name="РегистрационныйНомерИДата" id="741">
-									<DataPath>1/464</DataPath>
+									<DataPath>~Список.РегистрационныйНомерИДата</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -2364,7 +2364,7 @@
 									<ExtendedTooltip name="ГруппаРегистрационныйНомерИДатаРасширеннаяПодсказка" id="640"/>
 									<ChildItems>
 										<LabelField name="РегистрационныйНомер" id="6">
-											<DataPath>1/162</DataPath>
+											<DataPath>~Список.РегистрационныйНомер</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -2379,7 +2379,7 @@
 											<ExtendedTooltip name="РегистрационныйНомерExtendedTooltip" id="513"/>
 										</LabelField>
 										<LabelField name="ДатаРегистрации" id="4">
-											<DataPath>1/172</DataPath>
+											<DataPath>~Список.ДатаРегистрации</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -2412,12 +2412,12 @@
 									<ExtendedTooltip name="ГруппаУтвердилПодготовилРасширеннаяПодсказка" id="642"/>
 									<ChildItems>
 										<LabelField name="Подготовил" id="55">
-											<DataPath>1/228</DataPath>
+											<DataPath>~Список.Подготовил</DataPath>
 											<ContextMenu name="ПодготовилКонтекстноеМеню" id="56"/>
 											<ExtendedTooltip name="ПодготовилExtendedTooltip" id="516"/>
 										</LabelField>
 										<LabelField name="ПодписанУтвержден" id="12">
-											<DataPath>1/519</DataPath>
+											<DataPath>~Список.ПодписанУтвержден</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -2430,7 +2430,7 @@
 									</ChildItems>
 								</ColumnGroup>
 								<LabelField name="ВнутреннийНомер" id="62">
-									<DataPath>1/234</DataPath>
+									<DataPath>~Список.ВнутреннийНомер</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2444,7 +2444,7 @@
 									<ExtendedTooltip name="ВнутреннийНомерExtendedTooltip" id="517"/>
 								</LabelField>
 								<LabelField name="ДатаСортировки" id="64">
-									<DataPath>1/244</DataPath>
+									<DataPath>~Список.ДатаСортировки</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -2468,7 +2468,7 @@
 									<ExtendedTooltip name="ДатаСортировкиExtendedTooltip" id="518"/>
 								</LabelField>
 								<LabelField name="Папка" id="133">
-									<DataPath>1/264</DataPath>
+									<DataPath>~Список.Папка</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2476,7 +2476,7 @@
 									<ExtendedTooltip name="ПапкаExtendedTooltip" id="512"/>
 								</LabelField>
 								<LabelField name="ВидДокумента" id="40">
-									<DataPath>1/269</DataPath>
+									<DataPath>~Список.ВидДокумента</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2484,7 +2484,7 @@
 									<ExtendedTooltip name="ВидДокументаExtendedTooltip" id="519"/>
 								</LabelField>
 								<LabelField name="Организация" id="84">
-									<DataPath>1/286</DataPath>
+									<DataPath>~Список.Организация</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2492,7 +2492,7 @@
 									<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="520"/>
 								</LabelField>
 								<LabelField name="Подразделение" id="92">
-									<DataPath>1/305</DataPath>
+									<DataPath>~Список.Подразделение</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2500,7 +2500,7 @@
 									<ExtendedTooltip name="ПодразделениеExtendedTooltip" id="521"/>
 								</LabelField>
 								<LabelField name="СрокИсполнения" id="1012">
-									<DataPath>1/496</DataPath>
+									<DataPath>~Список.СрокИсполнения</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2508,7 +2508,7 @@
 									<ExtendedTooltip name="СрокИсполненияРасширеннаяПодсказка" id="1014"/>
 								</LabelField>
 								<LabelField name="Проект" id="332">
-									<DataPath>1/324</DataPath>
+									<DataPath>~Список.Проект</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2516,7 +2516,7 @@
 									<ExtendedTooltip name="ПроектExtendedTooltip" id="522"/>
 								</LabelField>
 								<LabelField name="ПоследнийЭтап" id="1003">
-									<DataPath>1/472</DataPath>
+									<DataPath>~Список.ПоследнийЭтап</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2524,7 +2524,7 @@
 									<ExtendedTooltip name="ПоследнийЭтапРасширеннаяПодсказка" id="1005"/>
 								</LabelField>
 								<LabelField name="НоменклатураДел" id="95">
-									<DataPath>1/340</DataPath>
+									<DataPath>~Список.НоменклатураДел</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2532,7 +2532,7 @@
 									<ExtendedTooltip name="НоменклатураДелExtendedTooltip" id="523"/>
 								</LabelField>
 								<LabelField name="Дело" id="88">
-									<DataPath>1/349</DataPath>
+									<DataPath>~Список.Дело</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2540,7 +2540,7 @@
 									<ExtendedTooltip name="ДелоExtendedTooltip" id="524"/>
 								</LabelField>
 								<LabelField name="ВопросДеятельности" id="399">
-									<DataPath>1/354</DataPath>
+									<DataPath>~Список.ВопросДеятельности</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2548,7 +2548,7 @@
 									<ExtendedTooltip name="ВопросДеятельностиExtendedTooltip" id="525"/>
 								</LabelField>
 								<InputField name="КонтрагентыДляСписков" id="411">
-									<DataPath>1/502</DataPath>
+									<DataPath>~Список.Контрагенты</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2563,7 +2563,7 @@
 									<ExtendedTooltip name="КонтрагентыДляСписковРасширеннаяПодсказка" id="526"/>
 								</InputField>
 								<LabelField name="Зарегистрировал" id="44">
-									<DataPath>1/375</DataPath>
+									<DataPath>~Список.Зарегистрировал</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2571,7 +2571,7 @@
 									<ExtendedTooltip name="ЗарегистрировалExtendedTooltip" id="527"/>
 								</LabelField>
 								<LabelField name="Создал" id="1071">
-									<DataPath>1/508</DataPath>
+									<DataPath>~Список.Создал</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2579,7 +2579,7 @@
 									<ExtendedTooltip name="СоздалРасширеннаяПодсказка" id="1073"/>
 								</LabelField>
 								<LabelField name="Ответственный" id="339">
-									<DataPath>1/387</DataPath>
+									<DataPath>~Список.Ответственный</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2587,7 +2587,7 @@
 									<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="528"/>
 								</LabelField>
 								<LabelField name="Состояние" id="80">
-									<DataPath>1/402</DataPath>
+									<DataPath>~Список.Состояние</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2596,7 +2596,7 @@
 									<ExtendedTooltip name="СостояниеExtendedTooltip" id="529"/>
 								</LabelField>
 								<CheckBoxField name="Отменен" id="90">
-									<DataPath>1/165</DataPath>
+									<DataPath/>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2605,7 +2605,7 @@
 									<ExtendedTooltip name="ОтмененExtendedTooltip" id="530"/>
 								</CheckBoxField>
 								<LabelField name="Сумма" id="145">
-									<DataPath>1/419</DataPath>
+									<DataPath>~Список.Сумма</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2613,7 +2613,7 @@
 									<ExtendedTooltip name="СуммаExtendedTooltip" id="531"/>
 								</LabelField>
 								<LabelField name="Валюта" id="143">
-									<DataPath>1/423</DataPath>
+									<DataPath>~Список.Валюта</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2621,7 +2621,7 @@
 									<ExtendedTooltip name="ВалютаExtendedTooltip" id="532"/>
 								</LabelField>
 								<LabelField name="ДатаНачалаДействия" id="147">
-									<DataPath>1/427</DataPath>
+									<DataPath>~Список.ДатаНачалаДействия</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2629,7 +2629,7 @@
 									<ExtendedTooltip name="ДатаНачалаДействияExtendedTooltip" id="533"/>
 								</LabelField>
 								<LabelField name="ДатаОкончанияДействия" id="149">
-									<DataPath>1/431</DataPath>
+									<DataPath>~Список.ДатаОкончанияДействия</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2637,7 +2637,7 @@
 									<ExtendedTooltip name="ДатаОкончанияДействияExtendedTooltip" id="534"/>
 								</LabelField>
 								<CheckBoxField name="ПодписанВсеми" id="1074">
-									<DataPath>1/512</DataPath>
+									<DataPath>~Список.ПодписанВсеми</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -2646,7 +2646,7 @@
 									<ExtendedTooltip name="ПодписанВсемиРасширеннаяПодсказка" id="1076"/>
 								</CheckBoxField>
 								<LabelField name="Ссылка" id="99">
-									<DataPath>1/481</DataPath>
+									<DataPath>~Список.Ссылка</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -3178,16 +3178,16 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>1/515</Field>
-				<Field>1/499</Field>
-				<Field>1/496</Field>
-				<Field>1/489</Field>
-				<Field>1/486</Field>
-				<Field>1/481</Field>
-				<Field>1/456</Field>
-				<Field>1/448</Field>
-				<Field>1/434</Field>
-				<Field>1/264</Field>
+				<Field>~Список.ЯвляетсяКомплектомДокументов</Field>
+				<Field>~Список.Ссылка</Field>
+				<Field>~Список.СрокИсполнения</Field>
+				<Field>~Список.ПометкаУдаления</Field>
+				<Field>~Список.ПодписанЭП</Field>
+				<Field>~Список.Папка</Field>
+				<Field>~Список.Наименование</Field>
+				<Field>~Список.ИспользоватьПодписание</Field>
+				<Field>~Список.Исполнен</Field>
+				<Field>~Список.Ref</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -4358,8 +4358,8 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>4/8</Field>
-				<Field>4/14</Field>
+				<Field>~Проекты.Ref</Field>
+				<Field>~Проекты.IsFolder</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -6411,7 +6411,7 @@
 			<Representation>Picture</Representation>
 		</Command>
 	</Commands>
-	<BaseForm version="2.3">
+	<BaseForm version="2.4">
 		<Title>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -6662,7 +6662,7 @@
 									<Button name="ОбщаяКомандаСоздатьПисьмоНаОсновании" id="737">
 										<Type>CommandBarButton</Type>
 										<CommandName>CommonCommand.СоздатьПисьмоНаОсновании</CommandName>
-										<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6730,7 +6730,7 @@
 											<Button name="ОбщаяКомандаСоздатьБизнесПроцесс" id="739">
 												<Type>CommandBarButton</Type>
 												<CommandName>CommonCommand.СоздатьБизнесПроцесс</CommandName>
-												<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+												<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -6761,37 +6761,37 @@
 									<Button name="СправочникВнутренниеДокументыСоздатьВнутреннийДокументНаОсновании" id="679">
 										<Type>CommandBarButton</Type>
 										<CommandName>Catalog.ВнутренниеДокументы.Command.СоздатьВнутреннийДокументНаОсновании</CommandName>
-										<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="СправочникВнутренниеДокументыСоздатьВнутреннийДокументНаОснованииРасширеннаяПодсказка" id="680"/>
 									</Button>
 									<Button name="СправочникИсходящиеДокументыСоздатьИсходящийДокументНаОсновании" id="727">
 										<Type>CommandBarButton</Type>
 										<CommandName>Catalog.ИсходящиеДокументы.Command.СоздатьИсходящийДокументНаОсновании</CommandName>
-										<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="СправочникИсходящиеДокументыСоздатьИсходящийДокументНаОснованииРасширеннаяПодсказка" id="728"/>
 									</Button>
 									<Button name="ОбщаяКомандаСоздатьЗаписьЖурналаПередачи" id="729">
 										<Type>CommandBarButton</Type>
 										<CommandName>CommonCommand.СоздатьЗаписьЖурналаПередачи</CommandName>
-										<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="ОбщаяКомандаСоздатьЗаписьЖурналаПередачиРасширеннаяПодсказка" id="730"/>
 									</Button>
 									<Button name="СправочникЗаписиРабочегоКалендаряСоздатьЗаписьКалендаряНаОсновании" id="731">
 										<Type>CommandBarButton</Type>
 										<CommandName>Catalog.ЗаписиРабочегоКалендаря.Command.СоздатьЗаписьКалендаряНаОсновании</CommandName>
-										<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="СправочникЗаписиРабочегоКалендаряСоздатьЗаписьКалендаряНаОснованииРасширеннаяПодсказка" id="732"/>
 									</Button>
 									<Button name="ОбщаяКомандаСозданиеСвязанныхОбъектов" id="733">
 										<Type>CommandBarButton</Type>
 										<CommandName>CommonCommand.СозданиеСвязанныхОбъектов</CommandName>
-										<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="ОбщаяКомандаСозданиеСвязанныхОбъектовРасширеннаяПодсказка" id="734"/>
 									</Button>
 									<Button name="СправочникМероприятияСоздатьНаОсновании" id="735">
 										<Type>CommandBarButton</Type>
 										<CommandName>Catalog.Мероприятия.Command.СоздатьМероприятиеНаОсновании</CommandName>
-										<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="СправочникМероприятияСоздатьНаОснованииРасширеннаяПодсказка" id="736"/>
 									</Button>
 								</ChildItems>
@@ -6821,13 +6821,13 @@
 							<Button name="ОбщаяКомандаЗаполнениеОбъекта" id="681">
 								<Type>CommandBarButton</Type>
 								<CommandName>CommonCommand.ЗаполнениеОбъекта</CommandName>
-								<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+								<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 								<ExtendedTooltip name="ОбщаяКомандаЗаполнениеОбъектаРасширеннаяПодсказка" id="682"/>
 							</Button>
 							<Button name="ОбщаяКомандаОтчетыОбъекта" id="683">
 								<Type>CommandBarButton</Type>
 								<CommandName>CommonCommand.ОтчетыОбъекта</CommandName>
-								<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+								<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 								<ExtendedTooltip name="ОбщаяКомандаОтчетыОбъектаРасширеннаяПодсказка" id="684"/>
 							</Button>
 						</ChildItems>
@@ -7010,14 +7010,14 @@
 										<Type>CommandBarButton</Type>
 										<OnlyInAllActions>false</OnlyInAllActions>
 										<CommandName>Catalog.Контроль.Command.Контроль</CommandName>
-										<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="СправочникКонтрольКонтрольРасширеннаяПодсказка" id="644"/>
 									</Button>
 									<Button name="ОбщаяКомандаОтправитьПоЭлектроннойПочте" id="645">
 										<Type>CommandBarButton</Type>
 										<OnlyInAllActions>false</OnlyInAllActions>
 										<CommandName>CommonCommand.ОтправитьПоЭлектроннойПочте</CommandName>
-										<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 										<ExtendedTooltip name="ОбщаяКомандаОтправитьПоЭлектроннойПочтеРасширеннаяПодсказка" id="646"/>
 									</Button>
 									<Button name="Подписать" id="101">
@@ -7050,14 +7050,14 @@
 												<Type>CommandBarButton</Type>
 												<OnlyInAllActions>false</OnlyInAllActions>
 												<CommandName>CommonCommand.ДобавитьВнешнийШтрихкод</CommandName>
-												<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+												<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 												<ExtendedTooltip name="ОбщаяКомандаДобавитьВнешнийШтрихкодExtendedTooltip" id="438"/>
 											</Button>
 											<Button name="ОбщаяКомандаСохранитьШтрихкодВФайл" id="154">
 												<Type>CommandBarButton</Type>
 												<OnlyInAllActions>false</OnlyInAllActions>
 												<CommandName>CommonCommand.СохранитьШтрихкодВФайл</CommandName>
-												<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+												<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 												<ExtendedTooltip name="ОбщаяКомандаСохранитьШтрихкодВФайлExtendedTooltip" id="439"/>
 											</Button>
 										</ChildItems>
@@ -7184,7 +7184,7 @@
 												<Type>CommandBarButton</Type>
 												<OnlyInAllActions>false</OnlyInAllActions>
 												<CommandName>InformationRegister.ФактическиеТрудозатраты.Command.ТрудозатратыПоИсточнику</CommandName>
-												<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+												<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -7206,7 +7206,7 @@
 										<Type>CommandBarButton</Type>
 										<OnlyInAllActions>false</OnlyInAllActions>
 										<CommandName>CommonCommand.СохранитьВсе</CommandName>
-										<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -7219,7 +7219,7 @@
 										<Type>CommandBarButton</Type>
 										<OnlyInAllActions>false</OnlyInAllActions>
 										<CommandName>CommonCommand.НапечататьВсе</CommandName>
-										<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/481</DataPath>
+										<DataPath>~Items.Список.CurrentData.Ссылка</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -8330,7 +8330,7 @@
 										</SearchControlAddition>
 										<ChildItems>
 											<LabelField name="ПроектыНаименование" id="405">
-												<DataPath>4/4</DataPath>
+												<DataPath>~Проекты.Description</DataPath>
 												<Width>30</Width>
 												<ContextMenu name="ПроектыНаименованиеКонтекстноеМеню" id="406"/>
 												<ExtendedTooltip name="ПроектыНаименованиеExtendedTooltip" id="494"/>
@@ -8502,7 +8502,7 @@
 										<Button name="СписокКонтекстноеМенюСправочникКонтрольКонтроль" id="1006">
 											<Type>CommandBarButton</Type>
 											<CommandName>Catalog.Контроль.Command.Контроль</CommandName>
-											<DataPath>1:02023637-7868-4a5f-8576-835a76e0c9ba/434</DataPath>
+											<DataPath>~Items.Список.CurrentData.Ref</DataPath>
 											<ExtendedTooltip name="СписокКонтекстноеМенюСправочникКонтрольКонтрольРасширеннаяПодсказка" id="1007"/>
 										</Button>
 										<Button name="СписокКонтекстноеМенюПодписать" id="104">
@@ -8584,7 +8584,7 @@
 										<ExtendedTooltip name="ГруппаФайлыЗадачиРасширеннаяПодсказка" id="636"/>
 										<ChildItems>
 											<PictureField name="Файлы" id="28">
-												<DataPath>1/19</DataPath>
+												<DataPath>~Список.ИндексКартинкиФайлы</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -8612,7 +8612,7 @@
 												<ExtendedTooltip name="ФайлыExtendedTooltip" id="507"/>
 											</PictureField>
 											<PictureField name="Задачи" id="30">
-												<DataPath>1/36</DataPath>
+												<DataPath>~Список.Задачи</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -8656,7 +8656,7 @@
 										<ExtendedTooltip name="ГруппаЭПКатегорииРасширеннаяПодсказка" id="638"/>
 										<ChildItems>
 											<PictureField name="ПодписанЭП" id="97">
-												<DataPath>1/72</DataPath>
+												<DataPath>~Список.СтатусПроверкиЭП</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -8684,7 +8684,7 @@
 												<ExtendedTooltip name="ПодписанЭПРасширеннаяПодсказка" id="509"/>
 											</PictureField>
 											<PictureField name="ЕстьКатегории" id="131">
-												<DataPath>1/86</DataPath>
+												<DataPath>~Список.ЕстьКатегорииДанных</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<TitleLocation>None</TitleLocation>
 												<ToolTip>
@@ -8708,7 +8708,7 @@
 										</ChildItems>
 									</ColumnGroup>
 									<PictureField name="СостояниеКонтроля" id="542">
-										<DataPath>1/119</DataPath>
+										<DataPath>~Список.СостояниеКонтроля</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<ToolTip>
 											<v8:item>
@@ -8729,7 +8729,7 @@
 										<ExtendedTooltip name="СостояниеКонтроляРасширеннаяПодсказка" id="544"/>
 									</PictureField>
 									<LabelField name="Наименование" id="10">
-										<DataPath>1/134</DataPath>
+										<DataPath>~Список.Заголовок</DataPath>
 										<DefaultItem>true</DefaultItem>
 										<AutoCellHeight>true</AutoCellHeight>
 										<Width>25</Width>
@@ -8737,7 +8737,7 @@
 										<ExtendedTooltip name="НаименованиеExtendedTooltip" id="511"/>
 									</LabelField>
 									<LabelField name="РегистрационныйНомерИДата" id="741">
-										<DataPath>1/464</DataPath>
+										<DataPath>~Список.РегистрационныйНомерИДата</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -8770,7 +8770,7 @@
 										<ExtendedTooltip name="ГруппаРегистрационныйНомерИДатаРасширеннаяПодсказка" id="640"/>
 										<ChildItems>
 											<LabelField name="РегистрационныйНомер" id="6">
-												<DataPath>1/162</DataPath>
+												<DataPath>~Список.РегистрационныйНомер</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -8785,7 +8785,7 @@
 												<ExtendedTooltip name="РегистрационныйНомерExtendedTooltip" id="513"/>
 											</LabelField>
 											<LabelField name="ДатаРегистрации" id="4">
-												<DataPath>1/172</DataPath>
+												<DataPath>~Список.ДатаРегистрации</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -8818,12 +8818,12 @@
 										<ExtendedTooltip name="ГруппаУтвердилПодготовилРасширеннаяПодсказка" id="642"/>
 										<ChildItems>
 											<LabelField name="Подготовил" id="55">
-												<DataPath>1/228</DataPath>
+												<DataPath>~Список.Подготовил</DataPath>
 												<ContextMenu name="ПодготовилКонтекстноеМеню" id="56"/>
 												<ExtendedTooltip name="ПодготовилExtendedTooltip" id="516"/>
 											</LabelField>
 											<LabelField name="ПодписанУтвержден" id="12">
-												<DataPath>1/519</DataPath>
+												<DataPath>~Список.ПодписанУтвержден</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -8836,7 +8836,7 @@
 										</ChildItems>
 									</ColumnGroup>
 									<LabelField name="ВнутреннийНомер" id="62">
-										<DataPath>1/234</DataPath>
+										<DataPath>~Список.ВнутреннийНомер</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -8850,7 +8850,7 @@
 										<ExtendedTooltip name="ВнутреннийНомерExtendedTooltip" id="517"/>
 									</LabelField>
 									<LabelField name="ДатаСортировки" id="64">
-										<DataPath>1/244</DataPath>
+										<DataPath>~Список.ДатаСортировки</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -8874,7 +8874,7 @@
 										<ExtendedTooltip name="ДатаСортировкиExtendedTooltip" id="518"/>
 									</LabelField>
 									<LabelField name="Папка" id="133">
-										<DataPath>1/264</DataPath>
+										<DataPath>~Список.Папка</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -8882,7 +8882,7 @@
 										<ExtendedTooltip name="ПапкаExtendedTooltip" id="512"/>
 									</LabelField>
 									<LabelField name="ВидДокумента" id="40">
-										<DataPath>1/269</DataPath>
+										<DataPath>~Список.ВидДокумента</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -8890,7 +8890,7 @@
 										<ExtendedTooltip name="ВидДокументаExtendedTooltip" id="519"/>
 									</LabelField>
 									<LabelField name="Организация" id="84">
-										<DataPath>1/286</DataPath>
+										<DataPath>~Список.Организация</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -8898,7 +8898,7 @@
 										<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="520"/>
 									</LabelField>
 									<LabelField name="Подразделение" id="92">
-										<DataPath>1/305</DataPath>
+										<DataPath>~Список.Подразделение</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -8906,7 +8906,7 @@
 										<ExtendedTooltip name="ПодразделениеExtendedTooltip" id="521"/>
 									</LabelField>
 									<LabelField name="СрокИсполнения" id="1012">
-										<DataPath>1/496</DataPath>
+										<DataPath>~Список.СрокИсполнения</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -8914,7 +8914,7 @@
 										<ExtendedTooltip name="СрокИсполненияРасширеннаяПодсказка" id="1014"/>
 									</LabelField>
 									<LabelField name="Проект" id="332">
-										<DataPath>1/324</DataPath>
+										<DataPath>~Список.Проект</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -8922,7 +8922,7 @@
 										<ExtendedTooltip name="ПроектExtendedTooltip" id="522"/>
 									</LabelField>
 									<LabelField name="ПоследнийЭтап" id="1003">
-										<DataPath>1/472</DataPath>
+										<DataPath>~Список.ПоследнийЭтап</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -8930,7 +8930,7 @@
 										<ExtendedTooltip name="ПоследнийЭтапРасширеннаяПодсказка" id="1005"/>
 									</LabelField>
 									<LabelField name="НоменклатураДел" id="95">
-										<DataPath>1/340</DataPath>
+										<DataPath>~Список.НоменклатураДел</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -8938,7 +8938,7 @@
 										<ExtendedTooltip name="НоменклатураДелExtendedTooltip" id="523"/>
 									</LabelField>
 									<LabelField name="Дело" id="88">
-										<DataPath>1/349</DataPath>
+										<DataPath>~Список.Дело</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -8946,7 +8946,7 @@
 										<ExtendedTooltip name="ДелоExtendedTooltip" id="524"/>
 									</LabelField>
 									<LabelField name="ВопросДеятельности" id="399">
-										<DataPath>1/354</DataPath>
+										<DataPath>~Список.ВопросДеятельности</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -8954,7 +8954,7 @@
 										<ExtendedTooltip name="ВопросДеятельностиExtendedTooltip" id="525"/>
 									</LabelField>
 									<InputField name="КонтрагентыДляСписков" id="411">
-										<DataPath>1/502</DataPath>
+										<DataPath>~Список.Контрагенты</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -8969,7 +8969,7 @@
 										<ExtendedTooltip name="КонтрагентыДляСписковРасширеннаяПодсказка" id="526"/>
 									</InputField>
 									<LabelField name="Зарегистрировал" id="44">
-										<DataPath>1/375</DataPath>
+										<DataPath>~Список.Зарегистрировал</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -8977,7 +8977,7 @@
 										<ExtendedTooltip name="ЗарегистрировалExtendedTooltip" id="527"/>
 									</LabelField>
 									<LabelField name="Создал" id="1071">
-										<DataPath>1/508</DataPath>
+										<DataPath>~Список.Создал</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -8985,7 +8985,7 @@
 										<ExtendedTooltip name="СоздалРасширеннаяПодсказка" id="1073"/>
 									</LabelField>
 									<LabelField name="Ответственный" id="339">
-										<DataPath>1/387</DataPath>
+										<DataPath>~Список.Ответственный</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -8993,7 +8993,7 @@
 										<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="528"/>
 									</LabelField>
 									<LabelField name="Состояние" id="80">
-										<DataPath>1/402</DataPath>
+										<DataPath>~Список.Состояние</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -9002,7 +9002,7 @@
 										<ExtendedTooltip name="СостояниеExtendedTooltip" id="529"/>
 									</LabelField>
 									<CheckBoxField name="Отменен" id="90">
-										<DataPath>1/165</DataPath>
+										<DataPath/>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -9011,7 +9011,7 @@
 										<ExtendedTooltip name="ОтмененExtendedTooltip" id="530"/>
 									</CheckBoxField>
 									<LabelField name="Сумма" id="145">
-										<DataPath>1/419</DataPath>
+										<DataPath>~Список.Сумма</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -9019,7 +9019,7 @@
 										<ExtendedTooltip name="СуммаExtendedTooltip" id="531"/>
 									</LabelField>
 									<LabelField name="Валюта" id="143">
-										<DataPath>1/423</DataPath>
+										<DataPath>~Список.Валюта</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -9027,7 +9027,7 @@
 										<ExtendedTooltip name="ВалютаExtendedTooltip" id="532"/>
 									</LabelField>
 									<LabelField name="ДатаНачалаДействия" id="147">
-										<DataPath>1/427</DataPath>
+										<DataPath>~Список.ДатаНачалаДействия</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -9035,7 +9035,7 @@
 										<ExtendedTooltip name="ДатаНачалаДействияExtendedTooltip" id="533"/>
 									</LabelField>
 									<LabelField name="ДатаОкончанияДействия" id="149">
-										<DataPath>1/431</DataPath>
+										<DataPath>~Список.ДатаОкончанияДействия</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -9043,7 +9043,7 @@
 										<ExtendedTooltip name="ДатаОкончанияДействияExtendedTooltip" id="534"/>
 									</LabelField>
 									<CheckBoxField name="ПодписанВсеми" id="1074">
-										<DataPath>1/512</DataPath>
+										<DataPath>~Список.ПодписанВсеми</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -9052,7 +9052,7 @@
 										<ExtendedTooltip name="ПодписанВсемиРасширеннаяПодсказка" id="1076"/>
 									</CheckBoxField>
 									<LabelField name="Ссылка" id="99">
-										<DataPath>1/481</DataPath>
+										<DataPath>~Список.Ссылка</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -9584,16 +9584,16 @@
 				</Type>
 				<MainAttribute>true</MainAttribute>
 				<UseAlways>
-					<Field>1/515</Field>
-					<Field>1/499</Field>
-					<Field>1/496</Field>
-					<Field>1/489</Field>
-					<Field>1/486</Field>
-					<Field>1/481</Field>
-					<Field>1/456</Field>
-					<Field>1/448</Field>
-					<Field>1/434</Field>
-					<Field>1/264</Field>
+					<Field>~Список.ЯвляетсяКомплектомДокументов</Field>
+					<Field>~Список.Ссылка</Field>
+					<Field>~Список.СрокИсполнения</Field>
+					<Field>~Список.ПометкаУдаления</Field>
+					<Field>~Список.ПодписанЭП</Field>
+					<Field>~Список.Папка</Field>
+					<Field>~Список.Наименование</Field>
+					<Field>~Список.ИспользоватьПодписание</Field>
+					<Field>~Список.Исполнен</Field>
+					<Field>~Список.Ref</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
@@ -10764,8 +10764,8 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<UseAlways>
-					<Field>4/8</Field>
-					<Field>4/14</Field>
+					<Field>~Проекты.Ref</Field>
+					<Field>~Проекты.IsFolder</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
