@@ -3837,7 +3837,22 @@
 									<TitleTextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TitleTextColor>
 									<RowFilter xsi:nil="true"/>
 									<ContextMenu name="КМН_ТаблицаАвансовыйОтчетРасходыКонтекстноеМеню" id="2406"/>
-									<AutoCommandBar name="КМН_ТаблицаАвансовыйОтчетРасходыКоманднаяПанель" id="2407"/>
+									<AutoCommandBar name="КМН_ТаблицаАвансовыйОтчетРасходыКоманднаяПанель" id="2407">
+										<ChildItems>
+											<Button name="КМН_ТаблицаАвансовыйОтчетРасходыКМН_ОбновитьТаблицуАвансовыйОтчетРасходы" id="2561">
+												<Type>CommandBarButton</Type>
+												<Visible>false</Visible>
+												<CommandName>Form.Command.КМН_ОбновитьТаблицуАвансовыйОтчетРасходы</CommandName>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Обновить</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="КМН_ТаблицаАвансовыйОтчетРасходыКМН_ОбновитьТаблицуАвансовыйОтчетРасходыРасширеннаяПодсказка" id="2562"/>
+											</Button>
+										</ChildItems>
+									</AutoCommandBar>
 									<ExtendedTooltip name="КМН_ТаблицаАвансовыйОтчетРасходыРасширеннаяПодсказка" id="2408"/>
 									<SearchStringAddition name="КМН_ТаблицаАвансовыйОтчетРасходыСтрокаПоиска" id="2409">
 										<AdditionSource>
@@ -15067,6 +15082,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action callType="Before">КМН_КМН_ИзменитьПутевойЛистВместо</Action>
+		</Command>
+		<Command name="КМН_ОбновитьТаблицуАвансовыйОтчетРасходы" id="108">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>КМН обновить таблицу авансовый отчет расходы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить таблицу "Расходы"</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Override">КМН_КМН_ОбновитьТаблицуАвансовыйОтчетРасходыВместо</Action>
 		</Command>
 	</Commands>
 	<Parameters>
