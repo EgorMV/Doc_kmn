@@ -4159,6 +4159,7 @@
 									<Events>
 										<Event name="Selection" callType="Before">КМН_КМН_ТаблицаПутевыеЛистыВыборВместо</Event>
 										<Event name="BeforeAddRow" callType="Before">КМН_КМН_ТаблицаПутевыеЛистыПередНачаломДобавленияВместо</Event>
+										<Event name="BeforeDeleteRow" callType="Override">КМН_КМН_ТаблицаПутевыеЛистыПередУдалениемВместо</Event>
 										<Event name="ChoiceProcessing" callType="Before">КМН_КМН_ТаблицаПутевыеЛистыОбработкаВыбораВместо</Event>
 									</Events>
 									<ChildItems>
@@ -12080,17 +12081,6 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="КМН_ДанныеАвансовыйОтчетРасходы" id="190">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Данные по авансовому отчету</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
-			</Type>
-		</Attribute>
 		<Attribute name="КМН_ТаблицаАвансовыйОтчетРасходы" id="191">
 			<Title>
 				<v8:item>
@@ -12255,17 +12245,6 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="КМН_ДанныеАвансовыйОтчетДоходы" id="192">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Данные по авансовому отчету</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
-			</Type>
-		</Attribute>
 		<Attribute name="КМН_ТаблицаАвансовыйОтчетДоходы" id="193">
 			<Title>
 				<v8:item>
@@ -12419,17 +12398,6 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="КМН_ДанныеАвтомобиль" id="198">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>КМН данные автомобиль</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
-			</Type>
-		</Attribute>
 		<Attribute name="КМН_ТаблицаПутевыеЛисты" id="200">
 			<Title>
 				<v8:item>
@@ -12501,39 +12469,6 @@
 					</Type>
 				</Column>
 			</Columns>
-		</Attribute>
-		<Attribute name="КМН_ДанныеПутевыеЛисты" id="201">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>КМН данные путевые листы</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="КМН_ДанныеВыданоНал" id="202">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>КМН данные выдано нал</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
-			</Type>
-		</Attribute>
-		<Attribute name="КМН_ДанныеВыданоБезнал" id="203">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>КМН данные выдано безнал</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
-			</Type>
 		</Attribute>
 		<Attribute name="КМН_СуммаОстатокНал" id="206">
 			<Title>

@@ -20,6 +20,11 @@
 				<CommandName>Form.Command.Печать</CommandName>
 				<ExtendedTooltip name="ФормаПечатьРасширеннаяПодсказка" id="104"/>
 			</Button>
+			<Button name="ФормаУдалитьДокумент" id="124">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.УдалитьДокумент</CommandName>
+				<ExtendedTooltip name="ФормаУдалитьДокументРасширеннаяПодсказка" id="125"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -952,7 +957,28 @@
 					<v8:content>Печать</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Print</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Action>Печать</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="УдалитьДокумент" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить документ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УдалитьДокумент</Action>
+			<Representation>Text</Representation>
 		</Command>
 	</Commands>
 </Form>
