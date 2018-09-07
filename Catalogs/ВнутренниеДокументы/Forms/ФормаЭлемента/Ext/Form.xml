@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<CommandBarLocation>None</CommandBarLocation>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
@@ -3435,18 +3435,18 @@
 											<EnableDrag>true</EnableDrag>
 											<DataPath>Объект.Товары</DataPath>
 											<CommandSet>
-												<ExcludedCommand>Copy</ExcludedCommand>
-												<ExcludedCommand>SortListAsc</ExcludedCommand>
 												<ExcludedCommand>CancelSearch</ExcludedCommand>
+												<ExcludedCommand>Change</ExcludedCommand>
+												<ExcludedCommand>Copy</ExcludedCommand>
+												<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+												<ExcludedCommand>EndEdit</ExcludedCommand>
+												<ExcludedCommand>Find</ExcludedCommand>
 												<ExcludedCommand>OutputList</ExcludedCommand>
 												<ExcludedCommand>SelectAll</ExcludedCommand>
-												<ExcludedCommand>SortListDesc</ExcludedCommand>
-												<ExcludedCommand>CopyToClipboard</ExcludedCommand>
-												<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
-												<ExcludedCommand>EndEdit</ExcludedCommand>
-												<ExcludedCommand>Change</ExcludedCommand>
-												<ExcludedCommand>Find</ExcludedCommand>
 												<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+												<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+												<ExcludedCommand>SortListAsc</ExcludedCommand>
+												<ExcludedCommand>SortListDesc</ExcludedCommand>
 											</CommandSet>
 											<RowFilter xsi:nil="true"/>
 											<ContextMenu name="ТоварыКонтекстноеМеню" id="2084">
@@ -3630,21 +3630,21 @@
 													<EnableDrag>true</EnableDrag>
 													<DataPath>ВсеТовары</DataPath>
 													<CommandSet>
+														<ExcludedCommand>CancelSearch</ExcludedCommand>
 														<ExcludedCommand>Copy</ExcludedCommand>
+														<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+														<ExcludedCommand>Delete</ExcludedCommand>
+														<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+														<ExcludedCommand>Find</ExcludedCommand>
+														<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 														<ExcludedCommand>ListSettings</ExcludedCommand>
 														<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
-														<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-														<ExcludedCommand>Refresh</ExcludedCommand>
-														<ExcludedCommand>CancelSearch</ExcludedCommand>
-														<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 														<ExcludedCommand>OutputList</ExcludedCommand>
-														<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+														<ExcludedCommand>Refresh</ExcludedCommand>
 														<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-														<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-														<ExcludedCommand>Find</ExcludedCommand>
 														<ExcludedCommand>SearchHistory</ExcludedCommand>
+														<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 														<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
-														<ExcludedCommand>Delete</ExcludedCommand>
 													</CommandSet>
 													<SearchStringLocation>None</SearchStringLocation>
 													<ViewStatusLocation>None</ViewStatusLocation>
@@ -3788,6 +3788,8 @@
 													<v8:content>Дата отчета</v8:content>
 												</v8:item>
 											</Title>
+											<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
+											<Font ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 											<ContextMenu name="КМН_ДатаАвансовогоОтчетаКонтекстноеМеню" id="2554"/>
 											<ExtendedTooltip name="КМН_ДатаАвансовогоОтчетаРасширеннаяПодсказка" id="2555"/>
 											<Events>
@@ -3795,6 +3797,7 @@
 											</Events>
 										</InputField>
 										<LabelDecoration name="НадписьПериодАвансовогоОтчета" id="2556">
+											<Font ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -3828,6 +3831,7 @@
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
 									<DataPath>КМН_ТаблицаАвансовыйОтчетРасходы</DataPath>
+									<Font ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -3835,6 +3839,7 @@
 										</v8:item>
 									</Title>
 									<TitleTextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TitleTextColor>
+									<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 									<RowFilter xsi:nil="true"/>
 									<ContextMenu name="КМН_ТаблицаАвансовыйОтчетРасходыКонтекстноеМеню" id="2406"/>
 									<AutoCommandBar name="КМН_ТаблицаАвансовыйОтчетРасходыКоманднаяПанель" id="2407">
@@ -4014,6 +4019,7 @@
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
 									<DataPath>КМН_ТаблицаАвансовыйОтчетДоходы</DataPath>
+									<Font ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -4021,6 +4027,7 @@
 										</v8:item>
 									</Title>
 									<TitleTextColor>style:ФайлЗанятыйТекущимПользователем</TitleTextColor>
+									<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 									<RowFilter xsi:nil="true"/>
 									<ContextMenu name="КМН_ТаблицаАвансовыйОтчетДоходыКонтекстноеМеню" id="2381"/>
 									<AutoCommandBar name="КМН_ТаблицаАвансовыйОтчетДоходыКоманднаяПанель" id="2382"/>
@@ -4409,21 +4416,21 @@
 									<EnableDrag>true</EnableDrag>
 									<DataPath>СоставКомплекта</DataPath>
 									<CommandSet>
-										<ExcludedCommand>HierarchicalList</ExcludedCommand>
-										<ExcludedCommand>Tree</ExcludedCommand>
+										<ExcludedCommand>Add</ExcludedCommand>
+										<ExcludedCommand>Change</ExcludedCommand>
 										<ExcludedCommand>Copy</ExcludedCommand>
-										<ExcludedCommand>List</ExcludedCommand>
-										<ExcludedCommand>SortListAsc</ExcludedCommand>
-										<ExcludedCommand>MoveUp</ExcludedCommand>
-										<ExcludedCommand>OutputList</ExcludedCommand>
-										<ExcludedCommand>SelectAll</ExcludedCommand>
-										<ExcludedCommand>SortListDesc</ExcludedCommand>
 										<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 										<ExcludedCommand>Delete</ExcludedCommand>
 										<ExcludedCommand>EndEdit</ExcludedCommand>
-										<ExcludedCommand>Add</ExcludedCommand>
-										<ExcludedCommand>Change</ExcludedCommand>
+										<ExcludedCommand>HierarchicalList</ExcludedCommand>
+										<ExcludedCommand>List</ExcludedCommand>
 										<ExcludedCommand>MoveDown</ExcludedCommand>
+										<ExcludedCommand>MoveUp</ExcludedCommand>
+										<ExcludedCommand>OutputList</ExcludedCommand>
+										<ExcludedCommand>SelectAll</ExcludedCommand>
+										<ExcludedCommand>SortListAsc</ExcludedCommand>
+										<ExcludedCommand>SortListDesc</ExcludedCommand>
+										<ExcludedCommand>Tree</ExcludedCommand>
 									</CommandSet>
 									<SearchStringLocation>None</SearchStringLocation>
 									<ViewStatusLocation>None</ViewStatusLocation>
@@ -4788,8 +4795,8 @@
 													<DataPath>Файлы</DataPath>
 													<CommandSet>
 														<ExcludedCommand>Copy</ExcludedCommand>
-														<ExcludedCommand>MoveUp</ExcludedCommand>
 														<ExcludedCommand>MoveDown</ExcludedCommand>
+														<ExcludedCommand>MoveUp</ExcludedCommand>
 													</CommandSet>
 													<SearchStringLocation>None</SearchStringLocation>
 													<ViewStatusLocation>None</ViewStatusLocation>
@@ -5595,13 +5602,13 @@
 													<EnableDrag>true</EnableDrag>
 													<DataPath>ФайлыДобавленные</DataPath>
 													<CommandSet>
-														<ExcludedCommand>Copy</ExcludedCommand>
+														<ExcludedCommand>Add</ExcludedCommand>
 														<ExcludedCommand>CancelSearch</ExcludedCommand>
-														<ExcludedCommand>SelectAll</ExcludedCommand>
+														<ExcludedCommand>Copy</ExcludedCommand>
 														<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 														<ExcludedCommand>EndEdit</ExcludedCommand>
-														<ExcludedCommand>Add</ExcludedCommand>
 														<ExcludedCommand>Find</ExcludedCommand>
+														<ExcludedCommand>SelectAll</ExcludedCommand>
 													</CommandSet>
 													<SearchStringLocation>None</SearchStringLocation>
 													<ViewStatusLocation>None</ViewStatusLocation>
@@ -5771,15 +5778,15 @@
 									<EnableDrag>true</EnableDrag>
 									<DataPath>Объект.ГрифыУтверждения</DataPath>
 									<CommandSet>
-										<ExcludedCommand>Copy</ExcludedCommand>
-										<ExcludedCommand>SortListAsc</ExcludedCommand>
-										<ExcludedCommand>MoveUp</ExcludedCommand>
 										<ExcludedCommand>CancelSearch</ExcludedCommand>
-										<ExcludedCommand>OutputList</ExcludedCommand>
-										<ExcludedCommand>SortListDesc</ExcludedCommand>
+										<ExcludedCommand>Copy</ExcludedCommand>
 										<ExcludedCommand>EndEdit</ExcludedCommand>
 										<ExcludedCommand>Find</ExcludedCommand>
 										<ExcludedCommand>MoveDown</ExcludedCommand>
+										<ExcludedCommand>MoveUp</ExcludedCommand>
+										<ExcludedCommand>OutputList</ExcludedCommand>
+										<ExcludedCommand>SortListAsc</ExcludedCommand>
+										<ExcludedCommand>SortListDesc</ExcludedCommand>
 									</CommandSet>
 									<SearchStringLocation>None</SearchStringLocation>
 									<ViewStatusLocation>None</ViewStatusLocation>
@@ -6166,15 +6173,15 @@
 											<EnableDrag>true</EnableDrag>
 											<DataPath>ВизыСогласования</DataPath>
 											<CommandSet>
-												<ExcludedCommand>Copy</ExcludedCommand>
-												<ExcludedCommand>SortListAsc</ExcludedCommand>
-												<ExcludedCommand>MoveUp</ExcludedCommand>
 												<ExcludedCommand>CancelSearch</ExcludedCommand>
-												<ExcludedCommand>OutputList</ExcludedCommand>
-												<ExcludedCommand>SortListDesc</ExcludedCommand>
+												<ExcludedCommand>Copy</ExcludedCommand>
 												<ExcludedCommand>EndEdit</ExcludedCommand>
 												<ExcludedCommand>Find</ExcludedCommand>
 												<ExcludedCommand>MoveDown</ExcludedCommand>
+												<ExcludedCommand>MoveUp</ExcludedCommand>
+												<ExcludedCommand>OutputList</ExcludedCommand>
+												<ExcludedCommand>SortListAsc</ExcludedCommand>
+												<ExcludedCommand>SortListDesc</ExcludedCommand>
 											</CommandSet>
 											<SearchStringLocation>None</SearchStringLocation>
 											<ViewStatusLocation>None</ViewStatusLocation>
@@ -6982,19 +6989,19 @@
 									<EnableDrag>true</EnableDrag>
 									<DataPath>ЭлектронныеПодписи</DataPath>
 									<CommandSet>
-										<ExcludedCommand>HierarchicalList</ExcludedCommand>
-										<ExcludedCommand>Tree</ExcludedCommand>
-										<ExcludedCommand>Copy</ExcludedCommand>
-										<ExcludedCommand>List</ExcludedCommand>
-										<ExcludedCommand>SortListAsc</ExcludedCommand>
-										<ExcludedCommand>MoveUp</ExcludedCommand>
-										<ExcludedCommand>OutputList</ExcludedCommand>
-										<ExcludedCommand>SortListDesc</ExcludedCommand>
-										<ExcludedCommand>Delete</ExcludedCommand>
-										<ExcludedCommand>EndEdit</ExcludedCommand>
 										<ExcludedCommand>Add</ExcludedCommand>
 										<ExcludedCommand>Change</ExcludedCommand>
+										<ExcludedCommand>Copy</ExcludedCommand>
+										<ExcludedCommand>Delete</ExcludedCommand>
+										<ExcludedCommand>EndEdit</ExcludedCommand>
+										<ExcludedCommand>HierarchicalList</ExcludedCommand>
+										<ExcludedCommand>List</ExcludedCommand>
 										<ExcludedCommand>MoveDown</ExcludedCommand>
+										<ExcludedCommand>MoveUp</ExcludedCommand>
+										<ExcludedCommand>OutputList</ExcludedCommand>
+										<ExcludedCommand>SortListAsc</ExcludedCommand>
+										<ExcludedCommand>SortListDesc</ExcludedCommand>
+										<ExcludedCommand>Tree</ExcludedCommand>
 									</CommandSet>
 									<SearchStringLocation>None</SearchStringLocation>
 									<ViewStatusLocation>None</ViewStatusLocation>
@@ -7192,16 +7199,16 @@
 											<EnableDrag>true</EnableDrag>
 											<DataPath>СписокКатегорийДанных</DataPath>
 											<CommandSet>
-												<ExcludedCommand>Copy</ExcludedCommand>
-												<ExcludedCommand>SortListAsc</ExcludedCommand>
-												<ExcludedCommand>MoveUp</ExcludedCommand>
-												<ExcludedCommand>CancelSearch</ExcludedCommand>
-												<ExcludedCommand>SortListDesc</ExcludedCommand>
-												<ExcludedCommand>EndEdit</ExcludedCommand>
 												<ExcludedCommand>Add</ExcludedCommand>
+												<ExcludedCommand>CancelSearch</ExcludedCommand>
 												<ExcludedCommand>Change</ExcludedCommand>
+												<ExcludedCommand>Copy</ExcludedCommand>
+												<ExcludedCommand>EndEdit</ExcludedCommand>
 												<ExcludedCommand>Find</ExcludedCommand>
 												<ExcludedCommand>MoveDown</ExcludedCommand>
+												<ExcludedCommand>MoveUp</ExcludedCommand>
+												<ExcludedCommand>SortListAsc</ExcludedCommand>
+												<ExcludedCommand>SortListDesc</ExcludedCommand>
 											</CommandSet>
 											<SearchStringLocation>None</SearchStringLocation>
 											<ViewStatusLocation>None</ViewStatusLocation>
@@ -7551,16 +7558,16 @@
 									<EnableDrag>true</EnableDrag>
 									<DataPath>РабочаяГруппаТаблица</DataPath>
 									<CommandSet>
-										<ExcludedCommand>Copy</ExcludedCommand>
-										<ExcludedCommand>SortListAsc</ExcludedCommand>
-										<ExcludedCommand>MoveUp</ExcludedCommand>
 										<ExcludedCommand>CancelSearch</ExcludedCommand>
-										<ExcludedCommand>SelectAll</ExcludedCommand>
-										<ExcludedCommand>SortListDesc</ExcludedCommand>
-										<ExcludedCommand>EndEdit</ExcludedCommand>
 										<ExcludedCommand>Change</ExcludedCommand>
+										<ExcludedCommand>Copy</ExcludedCommand>
+										<ExcludedCommand>EndEdit</ExcludedCommand>
 										<ExcludedCommand>Find</ExcludedCommand>
 										<ExcludedCommand>MoveDown</ExcludedCommand>
+										<ExcludedCommand>MoveUp</ExcludedCommand>
+										<ExcludedCommand>SelectAll</ExcludedCommand>
+										<ExcludedCommand>SortListAsc</ExcludedCommand>
+										<ExcludedCommand>SortListDesc</ExcludedCommand>
 									</CommandSet>
 									<SearchStringLocation>None</SearchStringLocation>
 									<ViewStatusLocation>None</ViewStatusLocation>
@@ -9079,9 +9086,9 @@
 				<v8:Type>v8:ValueTable</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>ВизыСогласования.Удалена</Field>
-				<Field>ВизыСогласования.Порядок</Field>
 				<Field>ВизыСогласования.ПомещенаВИсторию</Field>
+				<Field>ВизыСогласования.Порядок</Field>
+				<Field>ВизыСогласования.Удалена</Field>
 			</UseAlways>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьВизыСогласования</Item>
@@ -11624,11 +11631,11 @@
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
 			<UseAlways>
-				<Field>ВсеТовары.ЕдиницаИзмерения</Field>
-				<Field>ВсеТовары.Ref</Field>
-				<Field>~ВсеТовары.Цена</Field>
-				<Field>~ВсеТовары.СтавкаНДС</Field>
 				<Field>~ВсеТовары.IsFolder</Field>
+				<Field>~ВсеТовары.СтавкаНДС</Field>
+				<Field>~ВсеТовары.Цена</Field>
+				<Field>ВсеТовары.Ref</Field>
+				<Field>ВсеТовары.ЕдиницаИзмерения</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
@@ -15064,7 +15071,7 @@
 			<KeyParameter>true</KeyParameter>
 		</Parameter>
 	</Parameters>
-	<BaseForm version="2.4">
+	<BaseForm version="2.5">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 		<CommandBarLocation>None</CommandBarLocation>
 		<VerticalScroll>useIfNecessary</VerticalScroll>
@@ -18500,21 +18507,21 @@
 										<EnableDrag>true</EnableDrag>
 										<DataPath>СоставКомплекта</DataPath>
 										<CommandSet>
-											<ExcludedCommand>HierarchicalList</ExcludedCommand>
-											<ExcludedCommand>Tree</ExcludedCommand>
+											<ExcludedCommand>Add</ExcludedCommand>
+											<ExcludedCommand>Change</ExcludedCommand>
 											<ExcludedCommand>Copy</ExcludedCommand>
-											<ExcludedCommand>List</ExcludedCommand>
-											<ExcludedCommand>SortListAsc</ExcludedCommand>
-											<ExcludedCommand>MoveUp</ExcludedCommand>
-											<ExcludedCommand>OutputList</ExcludedCommand>
-											<ExcludedCommand>SelectAll</ExcludedCommand>
-											<ExcludedCommand>SortListDesc</ExcludedCommand>
 											<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 											<ExcludedCommand>Delete</ExcludedCommand>
 											<ExcludedCommand>EndEdit</ExcludedCommand>
-											<ExcludedCommand>Add</ExcludedCommand>
-											<ExcludedCommand>Change</ExcludedCommand>
+											<ExcludedCommand>HierarchicalList</ExcludedCommand>
+											<ExcludedCommand>List</ExcludedCommand>
 											<ExcludedCommand>MoveDown</ExcludedCommand>
+											<ExcludedCommand>MoveUp</ExcludedCommand>
+											<ExcludedCommand>OutputList</ExcludedCommand>
+											<ExcludedCommand>SelectAll</ExcludedCommand>
+											<ExcludedCommand>SortListAsc</ExcludedCommand>
+											<ExcludedCommand>SortListDesc</ExcludedCommand>
+											<ExcludedCommand>Tree</ExcludedCommand>
 										</CommandSet>
 										<SearchStringLocation>None</SearchStringLocation>
 										<ViewStatusLocation>None</ViewStatusLocation>
@@ -18879,8 +18886,8 @@
 														<DataPath>Файлы</DataPath>
 														<CommandSet>
 															<ExcludedCommand>Copy</ExcludedCommand>
-															<ExcludedCommand>MoveUp</ExcludedCommand>
 															<ExcludedCommand>MoveDown</ExcludedCommand>
+															<ExcludedCommand>MoveUp</ExcludedCommand>
 														</CommandSet>
 														<SearchStringLocation>None</SearchStringLocation>
 														<ViewStatusLocation>None</ViewStatusLocation>
@@ -19686,13 +19693,13 @@
 														<EnableDrag>true</EnableDrag>
 														<DataPath>ФайлыДобавленные</DataPath>
 														<CommandSet>
-															<ExcludedCommand>Copy</ExcludedCommand>
+															<ExcludedCommand>Add</ExcludedCommand>
 															<ExcludedCommand>CancelSearch</ExcludedCommand>
-															<ExcludedCommand>SelectAll</ExcludedCommand>
+															<ExcludedCommand>Copy</ExcludedCommand>
 															<ExcludedCommand>CopyToClipboard</ExcludedCommand>
 															<ExcludedCommand>EndEdit</ExcludedCommand>
-															<ExcludedCommand>Add</ExcludedCommand>
 															<ExcludedCommand>Find</ExcludedCommand>
+															<ExcludedCommand>SelectAll</ExcludedCommand>
 														</CommandSet>
 														<SearchStringLocation>None</SearchStringLocation>
 														<ViewStatusLocation>None</ViewStatusLocation>
@@ -19896,18 +19903,18 @@
 												<EnableDrag>true</EnableDrag>
 												<DataPath>Объект.Товары</DataPath>
 												<CommandSet>
-													<ExcludedCommand>Copy</ExcludedCommand>
-													<ExcludedCommand>SortListAsc</ExcludedCommand>
 													<ExcludedCommand>CancelSearch</ExcludedCommand>
+													<ExcludedCommand>Change</ExcludedCommand>
+													<ExcludedCommand>Copy</ExcludedCommand>
+													<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+													<ExcludedCommand>EndEdit</ExcludedCommand>
+													<ExcludedCommand>Find</ExcludedCommand>
 													<ExcludedCommand>OutputList</ExcludedCommand>
 													<ExcludedCommand>SelectAll</ExcludedCommand>
-													<ExcludedCommand>SortListDesc</ExcludedCommand>
-													<ExcludedCommand>CopyToClipboard</ExcludedCommand>
-													<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
-													<ExcludedCommand>EndEdit</ExcludedCommand>
-													<ExcludedCommand>Change</ExcludedCommand>
-													<ExcludedCommand>Find</ExcludedCommand>
 													<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+													<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+													<ExcludedCommand>SortListAsc</ExcludedCommand>
+													<ExcludedCommand>SortListDesc</ExcludedCommand>
 												</CommandSet>
 												<RowFilter xsi:nil="true"/>
 												<ContextMenu name="ТоварыКонтекстноеМеню" id="2084">
@@ -20074,21 +20081,21 @@
 														<EnableDrag>true</EnableDrag>
 														<DataPath>ВсеТовары</DataPath>
 														<CommandSet>
+															<ExcludedCommand>CancelSearch</ExcludedCommand>
 															<ExcludedCommand>Copy</ExcludedCommand>
+															<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+															<ExcludedCommand>Delete</ExcludedCommand>
+															<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+															<ExcludedCommand>Find</ExcludedCommand>
+															<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 															<ExcludedCommand>ListSettings</ExcludedCommand>
 															<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
-															<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-															<ExcludedCommand>Refresh</ExcludedCommand>
-															<ExcludedCommand>CancelSearch</ExcludedCommand>
-															<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 															<ExcludedCommand>OutputList</ExcludedCommand>
-															<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+															<ExcludedCommand>Refresh</ExcludedCommand>
 															<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
-															<ExcludedCommand>SetDeletionMark</ExcludedCommand>
-															<ExcludedCommand>Find</ExcludedCommand>
 															<ExcludedCommand>SearchHistory</ExcludedCommand>
+															<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 															<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
-															<ExcludedCommand>Delete</ExcludedCommand>
 														</CommandSet>
 														<SearchStringLocation>None</SearchStringLocation>
 														<ViewStatusLocation>None</ViewStatusLocation>
@@ -20215,15 +20222,15 @@
 										<EnableDrag>true</EnableDrag>
 										<DataPath>Объект.ГрифыУтверждения</DataPath>
 										<CommandSet>
-											<ExcludedCommand>Copy</ExcludedCommand>
-											<ExcludedCommand>SortListAsc</ExcludedCommand>
-											<ExcludedCommand>MoveUp</ExcludedCommand>
 											<ExcludedCommand>CancelSearch</ExcludedCommand>
-											<ExcludedCommand>OutputList</ExcludedCommand>
-											<ExcludedCommand>SortListDesc</ExcludedCommand>
+											<ExcludedCommand>Copy</ExcludedCommand>
 											<ExcludedCommand>EndEdit</ExcludedCommand>
 											<ExcludedCommand>Find</ExcludedCommand>
 											<ExcludedCommand>MoveDown</ExcludedCommand>
+											<ExcludedCommand>MoveUp</ExcludedCommand>
+											<ExcludedCommand>OutputList</ExcludedCommand>
+											<ExcludedCommand>SortListAsc</ExcludedCommand>
+											<ExcludedCommand>SortListDesc</ExcludedCommand>
 										</CommandSet>
 										<SearchStringLocation>None</SearchStringLocation>
 										<ViewStatusLocation>None</ViewStatusLocation>
@@ -20610,15 +20617,15 @@
 												<EnableDrag>true</EnableDrag>
 												<DataPath>ВизыСогласования</DataPath>
 												<CommandSet>
-													<ExcludedCommand>Copy</ExcludedCommand>
-													<ExcludedCommand>SortListAsc</ExcludedCommand>
-													<ExcludedCommand>MoveUp</ExcludedCommand>
 													<ExcludedCommand>CancelSearch</ExcludedCommand>
-													<ExcludedCommand>OutputList</ExcludedCommand>
-													<ExcludedCommand>SortListDesc</ExcludedCommand>
+													<ExcludedCommand>Copy</ExcludedCommand>
 													<ExcludedCommand>EndEdit</ExcludedCommand>
 													<ExcludedCommand>Find</ExcludedCommand>
 													<ExcludedCommand>MoveDown</ExcludedCommand>
+													<ExcludedCommand>MoveUp</ExcludedCommand>
+													<ExcludedCommand>OutputList</ExcludedCommand>
+													<ExcludedCommand>SortListAsc</ExcludedCommand>
+													<ExcludedCommand>SortListDesc</ExcludedCommand>
 												</CommandSet>
 												<SearchStringLocation>None</SearchStringLocation>
 												<ViewStatusLocation>None</ViewStatusLocation>
@@ -21442,19 +21449,19 @@
 										<EnableDrag>true</EnableDrag>
 										<DataPath>ЭлектронныеПодписи</DataPath>
 										<CommandSet>
-											<ExcludedCommand>HierarchicalList</ExcludedCommand>
-											<ExcludedCommand>Tree</ExcludedCommand>
-											<ExcludedCommand>Copy</ExcludedCommand>
-											<ExcludedCommand>List</ExcludedCommand>
-											<ExcludedCommand>SortListAsc</ExcludedCommand>
-											<ExcludedCommand>MoveUp</ExcludedCommand>
-											<ExcludedCommand>OutputList</ExcludedCommand>
-											<ExcludedCommand>SortListDesc</ExcludedCommand>
-											<ExcludedCommand>Delete</ExcludedCommand>
-											<ExcludedCommand>EndEdit</ExcludedCommand>
 											<ExcludedCommand>Add</ExcludedCommand>
 											<ExcludedCommand>Change</ExcludedCommand>
+											<ExcludedCommand>Copy</ExcludedCommand>
+											<ExcludedCommand>Delete</ExcludedCommand>
+											<ExcludedCommand>EndEdit</ExcludedCommand>
+											<ExcludedCommand>HierarchicalList</ExcludedCommand>
+											<ExcludedCommand>List</ExcludedCommand>
 											<ExcludedCommand>MoveDown</ExcludedCommand>
+											<ExcludedCommand>MoveUp</ExcludedCommand>
+											<ExcludedCommand>OutputList</ExcludedCommand>
+											<ExcludedCommand>SortListAsc</ExcludedCommand>
+											<ExcludedCommand>SortListDesc</ExcludedCommand>
+											<ExcludedCommand>Tree</ExcludedCommand>
 										</CommandSet>
 										<SearchStringLocation>None</SearchStringLocation>
 										<ViewStatusLocation>None</ViewStatusLocation>
@@ -21652,16 +21659,16 @@
 												<EnableDrag>true</EnableDrag>
 												<DataPath>СписокКатегорийДанных</DataPath>
 												<CommandSet>
-													<ExcludedCommand>Copy</ExcludedCommand>
-													<ExcludedCommand>SortListAsc</ExcludedCommand>
-													<ExcludedCommand>MoveUp</ExcludedCommand>
-													<ExcludedCommand>CancelSearch</ExcludedCommand>
-													<ExcludedCommand>SortListDesc</ExcludedCommand>
-													<ExcludedCommand>EndEdit</ExcludedCommand>
 													<ExcludedCommand>Add</ExcludedCommand>
+													<ExcludedCommand>CancelSearch</ExcludedCommand>
 													<ExcludedCommand>Change</ExcludedCommand>
+													<ExcludedCommand>Copy</ExcludedCommand>
+													<ExcludedCommand>EndEdit</ExcludedCommand>
 													<ExcludedCommand>Find</ExcludedCommand>
 													<ExcludedCommand>MoveDown</ExcludedCommand>
+													<ExcludedCommand>MoveUp</ExcludedCommand>
+													<ExcludedCommand>SortListAsc</ExcludedCommand>
+													<ExcludedCommand>SortListDesc</ExcludedCommand>
 												</CommandSet>
 												<SearchStringLocation>None</SearchStringLocation>
 												<ViewStatusLocation>None</ViewStatusLocation>
@@ -22011,16 +22018,16 @@
 										<EnableDrag>true</EnableDrag>
 										<DataPath>РабочаяГруппаТаблица</DataPath>
 										<CommandSet>
-											<ExcludedCommand>Copy</ExcludedCommand>
-											<ExcludedCommand>SortListAsc</ExcludedCommand>
-											<ExcludedCommand>MoveUp</ExcludedCommand>
 											<ExcludedCommand>CancelSearch</ExcludedCommand>
-											<ExcludedCommand>SelectAll</ExcludedCommand>
-											<ExcludedCommand>SortListDesc</ExcludedCommand>
-											<ExcludedCommand>EndEdit</ExcludedCommand>
 											<ExcludedCommand>Change</ExcludedCommand>
+											<ExcludedCommand>Copy</ExcludedCommand>
+											<ExcludedCommand>EndEdit</ExcludedCommand>
 											<ExcludedCommand>Find</ExcludedCommand>
 											<ExcludedCommand>MoveDown</ExcludedCommand>
+											<ExcludedCommand>MoveUp</ExcludedCommand>
+											<ExcludedCommand>SelectAll</ExcludedCommand>
+											<ExcludedCommand>SortListAsc</ExcludedCommand>
+											<ExcludedCommand>SortListDesc</ExcludedCommand>
 										</CommandSet>
 										<SearchStringLocation>None</SearchStringLocation>
 										<ViewStatusLocation>None</ViewStatusLocation>
@@ -23538,9 +23545,9 @@
 					<v8:Type>v8:ValueTable</v8:Type>
 				</Type>
 				<UseAlways>
-					<Field>ВизыСогласования.Удалена</Field>
-					<Field>ВизыСогласования.Порядок</Field>
 					<Field>ВизыСогласования.ПомещенаВИсторию</Field>
+					<Field>ВизыСогласования.Порядок</Field>
+					<Field>ВизыСогласования.Удалена</Field>
 				</UseAlways>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьВизыСогласования</Item>
@@ -26083,11 +26090,11 @@
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
 				<UseAlways>
-					<Field>ВсеТовары.ЕдиницаИзмерения</Field>
-					<Field>ВсеТовары.Ref</Field>
-					<Field>~ВсеТовары.Цена</Field>
-					<Field>~ВсеТовары.СтавкаНДС</Field>
 					<Field>~ВсеТовары.IsFolder</Field>
+					<Field>~ВсеТовары.СтавкаНДС</Field>
+					<Field>~ВсеТовары.Цена</Field>
+					<Field>ВсеТовары.Ref</Field>
+					<Field>ВсеТовары.ЕдиницаИзмерения</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>false</ManualQuery>
