@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -5598,6 +5598,7 @@
 				<xr:Ref>StdPicture.CreateFolder</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СоздатьДокумент" id="8">
 			<Title>
@@ -5617,6 +5618,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ИмпортФайлов" id="10">
 			<Title>
@@ -5631,6 +5633,7 @@
 					<v8:content>Загрузить файлы</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Подписать" id="12">
 			<Title>
@@ -5653,6 +5656,7 @@
 				<Item>FunctionalOption.ИспользоватьЭлектронныеПодписи</Item>
 			</FunctionalOptions>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОбновитьДеревоКатегорий" id="9">
 			<Title>
@@ -5675,6 +5679,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьКатегорииДанных</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПодобратьКатегории" id="13">
 			<Title>
@@ -5697,6 +5702,7 @@
 				<Item>FunctionalOption.ИспользоватьКатегорииДанных</Item>
 			</FunctionalOptions>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СнятьВсеОтметки" id="19">
 			<Title>
@@ -5716,6 +5722,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ИзменитьКатегорию" id="21">
 			<Title>
@@ -5735,6 +5742,7 @@
 				<xr:Ref>StdPicture.Change</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьВКомплект" id="16">
 			<Title>
@@ -5749,6 +5757,7 @@
 					<v8:content>Добавить в комплект</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Обновить" id="14">
 			<Title>
@@ -5768,6 +5777,7 @@
 				<xr:Ref>StdPicture.Refresh</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказыватьОтмеченныеКатегории" id="17">
 			<Title>
@@ -5782,6 +5792,7 @@
 					<v8:content>Показывать отмеченные категории</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказыватьСУчетомВсехОтмеченных" id="18">
 			<Title>
@@ -5796,6 +5807,7 @@
 					<v8:content>Показывать с учетом всех отмеченных</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказыватьСУчетомИерархии" id="20">
 			<Title>
@@ -5810,6 +5822,7 @@
 					<v8:content>Показывать с учетом иерархии</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказыватьСУчетомОднойИзОтмеченных" id="22">
 			<Title>
@@ -5824,6 +5837,7 @@
 					<v8:content>Показывать с учетом одной из отмеченных</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Автообновление" id="1">
 			<Title>
@@ -5832,6 +5846,7 @@
 					<v8:content>Автообновление...</v8:content>
 				</v8:item>
 			</Title>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказыватьУдаленные" id="2">
 			<Title>
@@ -5846,6 +5861,7 @@
 					<v8:content>Показывать удаленные</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="РежимПросмотраСписком" id="3">
 			<Title>
@@ -5860,6 +5876,7 @@
 					<v8:content>Режим просмотра списком</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="РежимПросмотраПоПапкам" id="4">
 			<Title>
@@ -5874,6 +5891,7 @@
 					<v8:content>Режим просмотра по папкам</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="РежимПросмотраПоВидамДокументов" id="5">
 			<Title>
@@ -5888,6 +5906,7 @@
 					<v8:content>Режим просмотра по видам документов</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="РежимПросмотраПоВопросамДеятельности" id="6">
 			<Title>
@@ -5902,6 +5921,7 @@
 					<v8:content>Режим просмотра по вопросам деятельности</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="РежимПросмотраПоКонтрагентам" id="11">
 			<Title>
@@ -5916,6 +5936,7 @@
 					<v8:content>Режим просмотра по контрагентам</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="РежимПросмотраПоНоменклатуреДел" id="15">
 			<Title>
@@ -5930,6 +5951,7 @@
 					<v8:content>Режим просмотра по номенклатуре дел</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="РежимПросмотраПоДеламТомам" id="23">
 			<Title>
@@ -5944,6 +5966,7 @@
 					<v8:content>Режим просмотра по делам томам</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="РежимПросмотраПоПроектам" id="24">
 			<Title>
@@ -5958,6 +5981,7 @@
 					<v8:content>Режим просмотра по проектам</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="РежимПросмотраПоКатегориям" id="25">
 			<Title>
@@ -5972,6 +5996,7 @@
 					<v8:content>Режим просмотра по категориям</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="НастроитьПрава" id="26">
 			<Title>
@@ -5986,6 +6011,7 @@
 					<v8:content>Настроить права доступа к папке</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ДобавитьВМоиДокументы" id="27">
 			<Title>
@@ -6000,6 +6026,7 @@
 					<v8:content>Добавить в список "Мои документы"</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОткрытьПроцесс" id="28">
 			<Title>
@@ -6018,6 +6045,7 @@
 				<xr:Ref>StdPicture.BusinessProcess</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОткрытьФайл" id="29">
 			<Title>
@@ -6037,6 +6065,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОткрытьЗадачу" id="30">
 			<Title>
@@ -6055,6 +6084,7 @@
 				<xr:Ref>StdPicture.Change</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказыватьУдаленныеФайлы" id="31">
 			<Title>
@@ -6069,6 +6099,7 @@
 					<v8:content>Показывать удаленные файлы</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Редактировать" id="32">
 			<Title>
@@ -6089,6 +6120,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СохранитьКак" id="33">
 			<Title>
@@ -6108,6 +6140,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОбновитьИзФайлаНаДиске" id="34">
 			<Title>
@@ -6122,6 +6155,7 @@
 					<v8:content>Обновить из файла на диске</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОбновитьСписокФайлов" id="35">
 			<Title>
@@ -6141,6 +6175,7 @@
 				<xr:Ref>StdPicture.Refresh</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="Напечатать" id="37">
 			<Title>
@@ -6160,6 +6195,7 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ЗакончитьРедактирование" id="38">
 			<Title>
@@ -6180,6 +6216,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="СохранитьИзменения" id="36">
 			<Title>
@@ -6199,6 +6236,7 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Representation>TextPicture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказыватьОбластьОбзора" id="39">
 			<Title>
@@ -6213,6 +6251,7 @@
 					<v8:content>Показывать удаленные файлы</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыполнитьПоискПоРеквизитам" id="40">
 			<Title>
@@ -6227,6 +6266,7 @@
 					<v8:content>Выполнить поиск по реквизитам</v8:content>
 				</v8:item>
 			</ToolTip>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПроцессИсполнение" id="41">
 			<Title>
@@ -6244,6 +6284,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПроцессОбработка" id="42">
 			<Title>
@@ -6261,6 +6302,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПроцессОзнакомление" id="43">
 			<Title>
@@ -6278,6 +6320,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПроцессРассмотрение" id="44">
 			<Title>
@@ -6295,6 +6338,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПроцессРегистрация" id="45">
 			<Title>
@@ -6312,6 +6356,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПроцессСогласование" id="46">
 			<Title>
@@ -6329,6 +6374,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПроцессУтверждение" id="47">
 			<Title>
@@ -6346,6 +6392,7 @@
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
 			</FunctionalOptions>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ОткрытьОтчеты" id="48">
 			<Title>
@@ -6364,6 +6411,7 @@
 				<xr:Ref>StdPicture.Report</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПереключитьХронометраж" id="49">
 			<Title>
@@ -6386,6 +6434,7 @@
 				<Item>FunctionalOption.ВестиУчетФактическихТрудозатрат</Item>
 			</FunctionalOptions>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="УказатьТрудозатраты" id="50">
 			<Title>
@@ -6408,9 +6457,10 @@
 				<Item>FunctionalOption.ВестиУчетФактическихТрудозатрат</Item>
 			</FunctionalOptions>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.5">
+	<BaseForm version="2.6">
 		<Title>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -12003,6 +12053,7 @@
 					<xr:Ref>StdPicture.CreateFolder</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="СоздатьДокумент" id="8">
 				<Title>
@@ -12022,6 +12073,7 @@
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
 				<Representation>TextPicture</Representation>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ИмпортФайлов" id="10">
 				<Title>
@@ -12036,6 +12088,7 @@
 						<v8:content>Загрузить файлы</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="Подписать" id="12">
 				<Title>
@@ -12058,6 +12111,7 @@
 					<Item>FunctionalOption.ИспользоватьЭлектронныеПодписи</Item>
 				</FunctionalOptions>
 				<Representation>TextPicture</Representation>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ОбновитьДеревоКатегорий" id="9">
 				<Title>
@@ -12080,6 +12134,7 @@
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьКатегорииДанных</Item>
 				</FunctionalOptions>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПодобратьКатегории" id="13">
 				<Title>
@@ -12102,6 +12157,7 @@
 					<Item>FunctionalOption.ИспользоватьКатегорииДанных</Item>
 				</FunctionalOptions>
 				<Representation>TextPicture</Representation>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="СнятьВсеОтметки" id="19">
 				<Title>
@@ -12121,6 +12177,7 @@
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
 				<Representation>Picture</Representation>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ИзменитьКатегорию" id="21">
 				<Title>
@@ -12140,6 +12197,7 @@
 					<xr:Ref>StdPicture.Change</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ДобавитьВКомплект" id="16">
 				<Title>
@@ -12154,6 +12212,7 @@
 						<v8:content>Добавить в комплект</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="Обновить" id="14">
 				<Title>
@@ -12173,6 +12232,7 @@
 					<xr:Ref>StdPicture.Refresh</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПоказыватьОтмеченныеКатегории" id="17">
 				<Title>
@@ -12187,6 +12247,7 @@
 						<v8:content>Показывать отмеченные категории</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПоказыватьСУчетомВсехОтмеченных" id="18">
 				<Title>
@@ -12201,6 +12262,7 @@
 						<v8:content>Показывать с учетом всех отмеченных</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПоказыватьСУчетомИерархии" id="20">
 				<Title>
@@ -12215,6 +12277,7 @@
 						<v8:content>Показывать с учетом иерархии</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПоказыватьСУчетомОднойИзОтмеченных" id="22">
 				<Title>
@@ -12229,6 +12292,7 @@
 						<v8:content>Показывать с учетом одной из отмеченных</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="Автообновление" id="1">
 				<Title>
@@ -12237,6 +12301,7 @@
 						<v8:content>Автообновление...</v8:content>
 					</v8:item>
 				</Title>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПоказыватьУдаленные" id="2">
 				<Title>
@@ -12251,6 +12316,7 @@
 						<v8:content>Показывать удаленные</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="РежимПросмотраСписком" id="3">
 				<Title>
@@ -12265,6 +12331,7 @@
 						<v8:content>Режим просмотра списком</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="РежимПросмотраПоПапкам" id="4">
 				<Title>
@@ -12279,6 +12346,7 @@
 						<v8:content>Режим просмотра по папкам</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="РежимПросмотраПоВидамДокументов" id="5">
 				<Title>
@@ -12293,6 +12361,7 @@
 						<v8:content>Режим просмотра по видам документов</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="РежимПросмотраПоВопросамДеятельности" id="6">
 				<Title>
@@ -12307,6 +12376,7 @@
 						<v8:content>Режим просмотра по вопросам деятельности</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="РежимПросмотраПоКонтрагентам" id="11">
 				<Title>
@@ -12321,6 +12391,7 @@
 						<v8:content>Режим просмотра по контрагентам</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="РежимПросмотраПоНоменклатуреДел" id="15">
 				<Title>
@@ -12335,6 +12406,7 @@
 						<v8:content>Режим просмотра по номенклатуре дел</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="РежимПросмотраПоДеламТомам" id="23">
 				<Title>
@@ -12349,6 +12421,7 @@
 						<v8:content>Режим просмотра по делам томам</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="РежимПросмотраПоПроектам" id="24">
 				<Title>
@@ -12363,6 +12436,7 @@
 						<v8:content>Режим просмотра по проектам</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="РежимПросмотраПоКатегориям" id="25">
 				<Title>
@@ -12377,6 +12451,7 @@
 						<v8:content>Режим просмотра по категориям</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="НастроитьПрава" id="26">
 				<Title>
@@ -12391,6 +12466,7 @@
 						<v8:content>Настроить права доступа к папке</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ДобавитьВМоиДокументы" id="27">
 				<Title>
@@ -12405,6 +12481,7 @@
 						<v8:content>Добавить в список "Мои документы"</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ОткрытьПроцесс" id="28">
 				<Title>
@@ -12423,6 +12500,7 @@
 					<xr:Ref>StdPicture.BusinessProcess</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ОткрытьФайл" id="29">
 				<Title>
@@ -12442,6 +12520,7 @@
 					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<Representation>TextPicture</Representation>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ОткрытьЗадачу" id="30">
 				<Title>
@@ -12460,6 +12539,7 @@
 					<xr:Ref>StdPicture.Change</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПоказыватьУдаленныеФайлы" id="31">
 				<Title>
@@ -12474,6 +12554,7 @@
 						<v8:content>Показывать удаленные файлы</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="Редактировать" id="32">
 				<Title>
@@ -12494,6 +12575,7 @@
 					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<Representation>TextPicture</Representation>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="СохранитьКак" id="33">
 				<Title>
@@ -12513,6 +12595,7 @@
 					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<Representation>TextPicture</Representation>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ОбновитьИзФайлаНаДиске" id="34">
 				<Title>
@@ -12527,6 +12610,7 @@
 						<v8:content>Обновить из файла на диске</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ОбновитьСписокФайлов" id="35">
 				<Title>
@@ -12546,6 +12630,7 @@
 					<xr:Ref>StdPicture.Refresh</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="Напечатать" id="37">
 				<Title>
@@ -12565,6 +12650,7 @@
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
 				<Representation>TextPicture</Representation>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ЗакончитьРедактирование" id="38">
 				<Title>
@@ -12585,6 +12671,7 @@
 					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<Representation>TextPicture</Representation>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="СохранитьИзменения" id="36">
 				<Title>
@@ -12604,6 +12691,7 @@
 					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<Representation>TextPicture</Representation>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПоказыватьОбластьОбзора" id="39">
 				<Title>
@@ -12618,6 +12706,7 @@
 						<v8:content>Показывать удаленные файлы</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ВыполнитьПоискПоРеквизитам" id="40">
 				<Title>
@@ -12632,6 +12721,7 @@
 						<v8:content>Выполнить поиск по реквизитам</v8:content>
 					</v8:item>
 				</ToolTip>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПроцессИсполнение" id="41">
 				<Title>
@@ -12649,6 +12739,7 @@
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
 				</FunctionalOptions>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПроцессОбработка" id="42">
 				<Title>
@@ -12666,6 +12757,7 @@
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
 				</FunctionalOptions>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПроцессОзнакомление" id="43">
 				<Title>
@@ -12683,6 +12775,7 @@
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
 				</FunctionalOptions>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПроцессРассмотрение" id="44">
 				<Title>
@@ -12700,6 +12793,7 @@
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
 				</FunctionalOptions>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПроцессРегистрация" id="45">
 				<Title>
@@ -12717,6 +12811,7 @@
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
 				</FunctionalOptions>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПроцессСогласование" id="46">
 				<Title>
@@ -12734,6 +12829,7 @@
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
 				</FunctionalOptions>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПроцессУтверждение" id="47">
 				<Title>
@@ -12751,6 +12847,7 @@
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьБизнесПроцессыИЗадачи</Item>
 				</FunctionalOptions>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ОткрытьОтчеты" id="48">
 				<Title>
@@ -12769,6 +12866,7 @@
 					<xr:Ref>StdPicture.Report</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="ПереключитьХронометраж" id="49">
 				<Title>
@@ -12791,6 +12889,7 @@
 					<Item>FunctionalOption.ВестиУчетФактическихТрудозатрат</Item>
 				</FunctionalOptions>
 				<Representation>Picture</Representation>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 			<Command name="УказатьТрудозатраты" id="50">
 				<Title>
@@ -12813,6 +12912,7 @@
 					<Item>FunctionalOption.ВестиУчетФактическихТрудозатрат</Item>
 				</FunctionalOptions>
 				<Representation>Picture</Representation>
+				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
 		</Commands>
 	</BaseForm>
