@@ -12,6 +12,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="AfterWrite" callType="After">КМН_ПослеЗаписиПосле</Event>
+		<Event name="NewWriteProcessing" callType="After">КМН_ОбработкаЗаписиНовогоПосле</Event>
 		<Event name="OnOpen" callType="After">КМН_ПриОткрытииПосле</Event>
 		<Event name="OnCreateAtServer" callType="After">КМН_ПриСозданииНаСервереПосле</Event>
 		<Event name="BeforeWriteAtServer" callType="Before">КМН_ПередЗаписьюНаСервереПеред</Event>
@@ -4168,6 +4169,7 @@
 										<Event name="BeforeAddRow" callType="Before">КМН_КМН_ТаблицаПутевыеЛистыПередНачаломДобавленияВместо</Event>
 										<Event name="BeforeDeleteRow" callType="Override">КМН_КМН_ТаблицаПутевыеЛистыПередУдалениемВместо</Event>
 										<Event name="ChoiceProcessing" callType="Before">КМН_КМН_ТаблицаПутевыеЛистыОбработкаВыбораВместо</Event>
+										<Event name="NewWriteProcessing" callType="Override">КМН_КМН_ТаблицаПутевыеЛистыОбработкаЗаписиНовогоВместо</Event>
 									</Events>
 									<ChildItems>
 										<InputField name="КМН_ТаблицаПутевыеЛистыАвтомобиль" id="2487">

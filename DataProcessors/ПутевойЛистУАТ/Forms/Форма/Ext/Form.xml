@@ -15,6 +15,15 @@
 				<CommandName>Form.Command.ЗаписатьЗакрыть</CommandName>
 				<ExtendedTooltip name="ФормаЗаписатьЗакрытьРасширеннаяПодсказка" id="57"/>
 			</Button>
+			<Button name="ФормаЗаписать" id="159">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Записать</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Write</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="160"/>
+			</Button>
 			<Button name="ФормаПечать" id="103">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Печать</CommandName>
@@ -144,6 +153,17 @@
 							<ContextMenu name="СпидометрВозвратКонтекстноеМеню" id="143"/>
 							<ExtendedTooltip name="СпидометрВозвратРасширеннаяПодсказка" id="144"/>
 						</InputField>
+						<LabelField name="ОбщийПробег" id="156">
+							<DataPath>ОбщийПробег</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Общий пробег (км)</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ОбщийПробегКонтекстноеМеню" id="157"/>
+							<ExtendedTooltip name="ОбщийПробегРасширеннаяПодсказка" id="158"/>
+						</LabelField>
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ОстатокГСМ" id="126">
@@ -1230,6 +1250,21 @@
 				</Column>
 			</Columns>
 		</Attribute>
+		<Attribute name="ОбщийПробег" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общий пробег</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ЗаписатьЗакрыть" id="1">
@@ -1285,6 +1320,21 @@
 			<Action>УдалитьДокумент</Action>
 			<Representation>Text</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="Записать" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Записать</Action>
 		</Command>
 	</Commands>
 </Form>
