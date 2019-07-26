@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
 	<Title>
 		<v8:item>
 			<v8:lang>ru</v8:lang>
@@ -928,6 +928,7 @@
 									<VerticalLines>false</VerticalLines>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>ДеревоКатегорий</DataPath>
 									<CommandSet>
 										<ExcludedCommand>Change</ExcludedCommand>
@@ -1176,6 +1177,7 @@
 									<VerticalLines>false</VerticalLines>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<VerticalStretch>false</VerticalStretch>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>ВыбранныеКатегории</DataPath>
 									<RowPictureDataPath>ВыбранныеКатегории.Picture</RowPictureDataPath>
 									<Title>
@@ -1264,6 +1266,7 @@
 									<VerticalLines>false</VerticalLines>
 									<InitialTreeView>ExpandTopLevel</InitialTreeView>
 									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>Папки</DataPath>
 									<BorderColor>style:BorderColor</BorderColor>
 									<CommandSet>
@@ -1368,6 +1371,7 @@
 														<xr:Ref>CommonPicture.Папки</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</ValuesPicture>
+													<FileDragMode>AsFile</FileDragMode>
 													<ContextMenu name="КартинкаГруппыКонтекстноеМеню" id="59"/>
 													<ExtendedTooltip name="КартинкаГруппыExtendedTooltip" id="469"/>
 												</PictureField>
@@ -1403,6 +1407,7 @@
 									<InitialTreeView>ExpandTopLevel</InitialTreeView>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>ВидыДокументов</DataPath>
 									<RowPictureDataPath>ВидыДокументов.IsFolder</RowPictureDataPath>
 									<RowsPicture>
@@ -1486,6 +1491,7 @@
 									<InitialTreeView>ExpandTopLevel</InitialTreeView>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>ВопросыДеятельности</DataPath>
 									<RowPictureDataPath>ВопросыДеятельности.IsFolder</RowPictureDataPath>
 									<RowsPicture>
@@ -1569,6 +1575,7 @@
 									<InitialTreeView>ExpandTopLevel</InitialTreeView>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>Контрагенты</DataPath>
 									<RowPictureDataPath>Контрагенты.IsFolder</RowPictureDataPath>
 									<RowsPicture>
@@ -1649,6 +1656,7 @@
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>НоменклатураДел</DataPath>
 									<RowPictureDataPath>НоменклатураДел.ИндексКартинки</RowPictureDataPath>
 									<RowsPicture>
@@ -1757,6 +1765,7 @@
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>ДелаТома</DataPath>
 									<RowPictureDataPath>ДелаТома.ИндексКартинки</RowPictureDataPath>
 									<RowsPicture>
@@ -1875,6 +1884,7 @@
 									<InitialTreeView>ExpandTopLevel</InitialTreeView>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
 									<DataPath>Проекты</DataPath>
 									<SearchStringLocation>None</SearchStringLocation>
 									<ViewStatusLocation>Top</ViewStatusLocation>
@@ -1956,6 +1966,7 @@
 							<InitialListView>End</InitialListView>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Список</DataPath>
 							<CommandSet>
 								<ExcludedCommand>Refresh</ExcludedCommand>
@@ -2202,6 +2213,7 @@
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 												<xr:TransparentPixel x="12" y="3"/>
 											</ValuesPicture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ФайлыКонтекстноеМеню" id="29"/>
 											<ExtendedTooltip name="ФайлыExtendedTooltip" id="507"/>
 										</PictureField>
@@ -2229,6 +2241,7 @@
 												<xr:Ref>CommonPicture.ВзаимодействиеСотрудников</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</ValuesPicture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ЗадачиКонтекстноеМеню" id="31"/>
 											<ExtendedTooltip name="ЗадачиExtendedTooltip" id="508"/>
 										</PictureField>
@@ -2274,6 +2287,7 @@
 												<xr:Ref>CommonPicture.СтатусПроверкиЭП</xr:Ref>
 												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</ValuesPicture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ПодписанЭПКонтекстноеМеню" id="98"/>
 											<ExtendedTooltip name="ПодписанЭПРасширеннаяПодсказка" id="509"/>
 										</PictureField>
@@ -2296,6 +2310,7 @@
 												<xr:Ref>CommonPicture.Категории</xr:Ref>
 												<xr:LoadTransparent>true</xr:LoadTransparent>
 											</ValuesPicture>
+											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ЕстьКатегорииКонтекстноеМеню" id="132"/>
 											<ExtendedTooltip name="ЕстьКатегорииExtendedTooltip" id="510"/>
 										</PictureField>
@@ -2319,6 +2334,7 @@
 										<xr:Ref>CommonPicture.СостоянияКонтроля16</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</ValuesPicture>
+									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="СостояниеКонтроляКонтекстноеМеню" id="543"/>
 									<ExtendedTooltip name="СостояниеКонтроляРасширеннаяПодсказка" id="544"/>
 								</PictureField>
@@ -2715,6 +2731,7 @@
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<EnableStartDrag>true</EnableStartDrag>
 													<EnableDrag>true</EnableDrag>
+													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>Файлы</DataPath>
 													<ToolTip>
 														<v8:item>
@@ -2847,6 +2864,7 @@
 																		<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
 																		<xr:LoadTransparent>true</xr:LoadTransparent>
 																	</ValuesPicture>
+																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="ФайлыДокументаИндексКартинкиКонтекстноеМеню" id="914"/>
 																	<ExtendedTooltip name="ФайлыДокументаИндексКартинкиРасширеннаяПодсказка" id="915"/>
 																</PictureField>
@@ -2915,6 +2933,7 @@
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<EnableStartDrag>true</EnableStartDrag>
 													<EnableDrag>true</EnableDrag>
+													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>СписокЗадачи</DataPath>
 													<ToolTip>
 														<v8:item>
@@ -3049,6 +3068,7 @@
 													<AutoInsertNewRow>true</AutoInsertNewRow>
 													<EnableStartDrag>true</EnableStartDrag>
 													<EnableDrag>true</EnableDrag>
+													<FileDragMode>AsFile</FileDragMode>
 													<DataPath>ДеревоСвязей</DataPath>
 													<ToolTip>
 														<v8:item>
@@ -3142,6 +3162,7 @@
 																		<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
 																		<xr:LoadTransparent>true</xr:LoadTransparent>
 																	</ValuesPicture>
+																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="ДеревоСвязейКартинкаКонтекстноеМеню" id="983"/>
 																	<ExtendedTooltip name="ДеревоСвязейКартинкаРасширеннаяПодсказка" id="984"/>
 																</PictureField>
@@ -5326,7 +5347,7 @@
 				<dcsset:appearance>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>ЦветТекста</dcscor:parameter>
-						<dcscor:value xsi:type="v8ui:Color">style:ЦветОбщейКатегории</dcscor:value>
+						<dcscor:value xsi:type="v8ui:Color">0:fda7309a-e751-440c-9cc7-76adac1a9c90</dcscor:value>
 					</dcscor:item>
 				</dcsset:appearance>
 			</dcsset:item>
@@ -5354,7 +5375,7 @@
 				<dcsset:appearance>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>ЦветТекста</dcscor:parameter>
-						<dcscor:value xsi:type="v8ui:Color">style:ЦветПерсональнойКатегории</dcscor:value>
+						<dcscor:value xsi:type="v8ui:Color">0:f3f3f0e5-2030-4ade-b362-a836885490a7</dcscor:value>
 					</dcscor:item>
 				</dcsset:appearance>
 			</dcsset:item>
@@ -5498,7 +5519,7 @@
 				<dcsset:appearance>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>ЦветТекста</dcscor:parameter>
-						<dcscor:value xsi:type="v8ui:Color">style:ФайлЗанятыйДругимПользователем</dcscor:value>
+						<dcscor:value xsi:type="v8ui:Color">0:15600df7-7fa0-4cf5-b7cc-9a5574bdf710</dcscor:value>
 					</dcscor:item>
 				</dcsset:appearance>
 			</dcsset:item>
@@ -5518,7 +5539,7 @@
 				<dcsset:appearance>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>ЦветТекста</dcscor:parameter>
-						<dcscor:value xsi:type="v8ui:Color">style:ФайлЗанятыйТекущимПользователем</dcscor:value>
+						<dcscor:value xsi:type="v8ui:Color">0:6d2f3aec-97e6-41f0-a84f-579972f9cb7d</dcscor:value>
 					</dcscor:item>
 				</dcsset:appearance>
 			</dcsset:item>
@@ -5538,12 +5559,12 @@
 				<dcsset:appearance>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>ЦветФона</dcscor:parameter>
-						<dcscor:value xsi:type="v8ui:Color">style:ФонПодписьНеверна</dcscor:value>
+						<dcscor:value xsi:type="v8ui:Color">0:47e0d1f3-211f-446e-8099-6ab20ceafa0f</dcscor:value>
 					</dcscor:item>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:use>false</dcscor:use>
 						<dcscor:parameter>ЦветТекста</dcscor:parameter>
-						<dcscor:value xsi:type="v8ui:Color">style:ФонПодписьНеверна</dcscor:value>
+						<dcscor:value xsi:type="v8ui:Color">0:47e0d1f3-211f-446e-8099-6ab20ceafa0f</dcscor:value>
 					</dcscor:item>
 				</dcsset:appearance>
 			</dcsset:item>
@@ -5574,7 +5595,7 @@
 				<dcsset:appearance>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 						<dcscor:parameter>ЦветТекста</dcscor:parameter>
-						<dcscor:value xsi:type="v8ui:Color">style:ПросроченныеДанныеЦвет</dcscor:value>
+						<dcscor:value xsi:type="v8ui:Color">0:8dcd81e4-e2c0-45ca-b39c-73cb84fb8127</dcscor:value>
 					</dcscor:item>
 				</dcsset:appearance>
 			</dcsset:item>
@@ -6460,7 +6481,7 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<BaseForm version="2.6">
+	<BaseForm version="2.7">
 		<Title>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -7386,6 +7407,7 @@
 										<VerticalLines>false</VerticalLines>
 										<AutoInsertNewRow>true</AutoInsertNewRow>
 										<EnableDrag>true</EnableDrag>
+										<FileDragMode>AsFile</FileDragMode>
 										<DataPath>ДеревоКатегорий</DataPath>
 										<CommandSet>
 											<ExcludedCommand>Change</ExcludedCommand>
@@ -7634,6 +7656,7 @@
 										<VerticalLines>false</VerticalLines>
 										<AutoInsertNewRow>true</AutoInsertNewRow>
 										<VerticalStretch>false</VerticalStretch>
+										<FileDragMode>AsFile</FileDragMode>
 										<DataPath>ВыбранныеКатегории</DataPath>
 										<RowPictureDataPath>ВыбранныеКатегории.Picture</RowPictureDataPath>
 										<Title>
@@ -7722,6 +7745,7 @@
 										<VerticalLines>false</VerticalLines>
 										<InitialTreeView>ExpandTopLevel</InitialTreeView>
 										<EnableDrag>true</EnableDrag>
+										<FileDragMode>AsFile</FileDragMode>
 										<DataPath>Папки</DataPath>
 										<BorderColor>style:BorderColor</BorderColor>
 										<CommandSet>
@@ -7826,6 +7850,7 @@
 															<xr:Ref>CommonPicture.Папки</xr:Ref>
 															<xr:LoadTransparent>false</xr:LoadTransparent>
 														</ValuesPicture>
+														<FileDragMode>AsFile</FileDragMode>
 														<ContextMenu name="КартинкаГруппыКонтекстноеМеню" id="59"/>
 														<ExtendedTooltip name="КартинкаГруппыExtendedTooltip" id="469"/>
 													</PictureField>
@@ -7861,6 +7886,7 @@
 										<InitialTreeView>ExpandTopLevel</InitialTreeView>
 										<EnableStartDrag>true</EnableStartDrag>
 										<EnableDrag>true</EnableDrag>
+										<FileDragMode>AsFile</FileDragMode>
 										<DataPath>ВидыДокументов</DataPath>
 										<RowPictureDataPath>ВидыДокументов.IsFolder</RowPictureDataPath>
 										<RowsPicture>
@@ -7944,6 +7970,7 @@
 										<InitialTreeView>ExpandTopLevel</InitialTreeView>
 										<EnableStartDrag>true</EnableStartDrag>
 										<EnableDrag>true</EnableDrag>
+										<FileDragMode>AsFile</FileDragMode>
 										<DataPath>ВопросыДеятельности</DataPath>
 										<RowPictureDataPath>ВопросыДеятельности.IsFolder</RowPictureDataPath>
 										<RowsPicture>
@@ -8027,6 +8054,7 @@
 										<InitialTreeView>ExpandTopLevel</InitialTreeView>
 										<EnableStartDrag>true</EnableStartDrag>
 										<EnableDrag>true</EnableDrag>
+										<FileDragMode>AsFile</FileDragMode>
 										<DataPath>Контрагенты</DataPath>
 										<RowPictureDataPath>Контрагенты.IsFolder</RowPictureDataPath>
 										<RowsPicture>
@@ -8107,6 +8135,7 @@
 										<AutoInsertNewRow>true</AutoInsertNewRow>
 										<EnableStartDrag>true</EnableStartDrag>
 										<EnableDrag>true</EnableDrag>
+										<FileDragMode>AsFile</FileDragMode>
 										<DataPath>НоменклатураДел</DataPath>
 										<RowPictureDataPath>НоменклатураДел.ИндексКартинки</RowPictureDataPath>
 										<RowsPicture>
@@ -8215,6 +8244,7 @@
 										<AutoInsertNewRow>true</AutoInsertNewRow>
 										<EnableStartDrag>true</EnableStartDrag>
 										<EnableDrag>true</EnableDrag>
+										<FileDragMode>AsFile</FileDragMode>
 										<DataPath>ДелаТома</DataPath>
 										<RowPictureDataPath>ДелаТома.ИндексКартинки</RowPictureDataPath>
 										<RowsPicture>
@@ -8333,6 +8363,7 @@
 										<InitialTreeView>ExpandTopLevel</InitialTreeView>
 										<EnableStartDrag>true</EnableStartDrag>
 										<EnableDrag>true</EnableDrag>
+										<FileDragMode>AsFile</FileDragMode>
 										<DataPath>Проекты</DataPath>
 										<SearchStringLocation>None</SearchStringLocation>
 										<ViewStatusLocation>Top</ViewStatusLocation>
@@ -8414,6 +8445,7 @@
 								<InitialListView>End</InitialListView>
 								<EnableStartDrag>true</EnableStartDrag>
 								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
 								<DataPath>Список</DataPath>
 								<CommandSet>
 									<ExcludedCommand>Refresh</ExcludedCommand>
@@ -8657,6 +8689,7 @@
 													<xr:LoadTransparent>true</xr:LoadTransparent>
 													<xr:TransparentPixel x="12" y="3"/>
 												</ValuesPicture>
+												<FileDragMode>AsFile</FileDragMode>
 												<ContextMenu name="ФайлыКонтекстноеМеню" id="29"/>
 												<ExtendedTooltip name="ФайлыExtendedTooltip" id="507"/>
 											</PictureField>
@@ -8684,6 +8717,7 @@
 													<xr:Ref>CommonPicture.ВзаимодействиеСотрудников</xr:Ref>
 													<xr:LoadTransparent>false</xr:LoadTransparent>
 												</ValuesPicture>
+												<FileDragMode>AsFile</FileDragMode>
 												<ContextMenu name="ЗадачиКонтекстноеМеню" id="31"/>
 												<ExtendedTooltip name="ЗадачиExtendedTooltip" id="508"/>
 											</PictureField>
@@ -8729,6 +8763,7 @@
 													<xr:Ref>CommonPicture.СтатусПроверкиЭП</xr:Ref>
 													<xr:LoadTransparent>false</xr:LoadTransparent>
 												</ValuesPicture>
+												<FileDragMode>AsFile</FileDragMode>
 												<ContextMenu name="ПодписанЭПКонтекстноеМеню" id="98"/>
 												<ExtendedTooltip name="ПодписанЭПРасширеннаяПодсказка" id="509"/>
 											</PictureField>
@@ -8751,6 +8786,7 @@
 													<xr:Ref>CommonPicture.Категории</xr:Ref>
 													<xr:LoadTransparent>true</xr:LoadTransparent>
 												</ValuesPicture>
+												<FileDragMode>AsFile</FileDragMode>
 												<ContextMenu name="ЕстьКатегорииКонтекстноеМеню" id="132"/>
 												<ExtendedTooltip name="ЕстьКатегорииExtendedTooltip" id="510"/>
 											</PictureField>
@@ -8774,6 +8810,7 @@
 											<xr:Ref>CommonPicture.СостоянияКонтроля16</xr:Ref>
 											<xr:LoadTransparent>true</xr:LoadTransparent>
 										</ValuesPicture>
+										<FileDragMode>AsFile</FileDragMode>
 										<ContextMenu name="СостояниеКонтроляКонтекстноеМеню" id="543"/>
 										<ExtendedTooltip name="СостояниеКонтроляРасширеннаяПодсказка" id="544"/>
 									</PictureField>
@@ -9170,6 +9207,7 @@
 														<AutoInsertNewRow>true</AutoInsertNewRow>
 														<EnableStartDrag>true</EnableStartDrag>
 														<EnableDrag>true</EnableDrag>
+														<FileDragMode>AsFile</FileDragMode>
 														<DataPath>Файлы</DataPath>
 														<ToolTip>
 															<v8:item>
@@ -9302,6 +9340,7 @@
 																			<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
 																			<xr:LoadTransparent>true</xr:LoadTransparent>
 																		</ValuesPicture>
+																		<FileDragMode>AsFile</FileDragMode>
 																		<ContextMenu name="ФайлыДокументаИндексКартинкиКонтекстноеМеню" id="914"/>
 																		<ExtendedTooltip name="ФайлыДокументаИндексКартинкиРасширеннаяПодсказка" id="915"/>
 																	</PictureField>
@@ -9370,6 +9409,7 @@
 														<AutoInsertNewRow>true</AutoInsertNewRow>
 														<EnableStartDrag>true</EnableStartDrag>
 														<EnableDrag>true</EnableDrag>
+														<FileDragMode>AsFile</FileDragMode>
 														<DataPath>СписокЗадачи</DataPath>
 														<ToolTip>
 															<v8:item>
@@ -9504,6 +9544,7 @@
 														<AutoInsertNewRow>true</AutoInsertNewRow>
 														<EnableStartDrag>true</EnableStartDrag>
 														<EnableDrag>true</EnableDrag>
+														<FileDragMode>AsFile</FileDragMode>
 														<DataPath>ДеревоСвязей</DataPath>
 														<ToolTip>
 															<v8:item>
@@ -9597,6 +9638,7 @@
 																			<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
 																			<xr:LoadTransparent>true</xr:LoadTransparent>
 																		</ValuesPicture>
+																		<FileDragMode>AsFile</FileDragMode>
 																		<ContextMenu name="ДеревоСвязейКартинкаКонтекстноеМеню" id="983"/>
 																		<ExtendedTooltip name="ДеревоСвязейКартинкаРасширеннаяПодсказка" id="984"/>
 																	</PictureField>
@@ -11781,7 +11823,7 @@
 					<dcsset:appearance>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">style:ЦветОбщейКатегории</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">0:fda7309a-e751-440c-9cc7-76adac1a9c90</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -11809,7 +11851,7 @@
 					<dcsset:appearance>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">style:ЦветПерсональнойКатегории</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">0:f3f3f0e5-2030-4ade-b362-a836885490a7</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -11953,7 +11995,7 @@
 					<dcsset:appearance>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">style:ФайлЗанятыйДругимПользователем</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">0:15600df7-7fa0-4cf5-b7cc-9a5574bdf710</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -11973,7 +12015,7 @@
 					<dcsset:appearance>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">style:ФайлЗанятыйТекущимПользователем</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">0:6d2f3aec-97e6-41f0-a84f-579972f9cb7d</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -11993,12 +12035,12 @@
 					<dcsset:appearance>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>ЦветФона</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">style:ФонПодписьНеверна</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">0:47e0d1f3-211f-446e-8099-6ab20ceafa0f</dcscor:value>
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:use>false</dcscor:use>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">style:ФонПодписьНеверна</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">0:47e0d1f3-211f-446e-8099-6ab20ceafa0f</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -12029,7 +12071,7 @@
 					<dcsset:appearance>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">style:ПросроченныеДанныеЦвет</dcscor:value>
+							<dcscor:value xsi:type="v8ui:Color">0:8dcd81e4-e2c0-45ca-b39c-73cb84fb8127</dcscor:value>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
