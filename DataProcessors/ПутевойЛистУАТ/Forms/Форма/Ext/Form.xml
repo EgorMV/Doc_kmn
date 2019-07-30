@@ -34,7 +34,7 @@
 				<CommandName>Form.Command.УдалитьДокумент</CommandName>
 				<ExtendedTooltip name="ФормаУдалитьДокументРасширеннаяПодсказка" id="125"/>
 			</Button>
-			<Button name="ФормаЗагрузитьИзФайла" id="163">
+			<Button name="ФормаЗагрузитьИзФайла" id="186">
 				<Type>CommandBarButton</Type>
 				<Representation>PictureAndText</Representation>
 				<CommandName>Form.Command.ЗагрузитьИзФайла</CommandName>
@@ -42,7 +42,7 @@
 					<xr:Ref>CommonPicture.ОпубликоватьФайл</xr:Ref>
 					<xr:LoadTransparent>true</xr:LoadTransparent>
 				</Picture>
-				<ExtendedTooltip name="ФормаЗагрузитьИзФайлаРасширеннаяПодсказка" id="164"/>
+				<ExtendedTooltip name="ФормаЗагрузитьИзФайлаРасширеннаяПодсказка" id="187"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -125,13 +125,15 @@
 							<v8:content>Данные спидометра</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Group>Horizontal</Group>
+					<Group>AlwaysHorizontal</Group>
+					<ChildrenAlign>ItemsLeftTitlesLeft</ChildrenAlign>
+					<HorizontalAlign>Left</HorizontalAlign>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ДанныеСпидометраРасширеннаяПодсказка" id="138"/>
 					<ChildItems>
 						<LabelDecoration name="НадписьПоказанияОдометра" id="145">
-							<Font bold="true" kind="AutoFont"/>
+							<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -146,9 +148,12 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>    При получении</v8:content>
+									<v8:content>При получении</v8:content>
 								</v8:item>
 							</Title>
+							<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>7</MaxWidth>
 							<ContextMenu name="СпидометрВыездКонтекстноеМеню" id="140"/>
 							<ExtendedTooltip name="СпидометрВыездРасширеннаяПодсказка" id="141"/>
 						</InputField>
@@ -160,6 +165,9 @@
 									<v8:content>При сдаче</v8:content>
 								</v8:item>
 							</Title>
+							<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>7</MaxWidth>
 							<ContextMenu name="СпидометрВозвратКонтекстноеМеню" id="143"/>
 							<ExtendedTooltip name="СпидометрВозвратРасширеннаяПодсказка" id="144"/>
 						</InputField>
@@ -168,11 +176,32 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Общий пробег (км)</v8:content>
+									<v8:content>     Фактический пробег по заданиям, км</v8:content>
 								</v8:item>
 							</Title>
+							<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>5</MaxWidth>
+							<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 							<ContextMenu name="ОбщийПробегКонтекстноеМеню" id="157"/>
 							<ExtendedTooltip name="ОбщийПробегРасширеннаяПодсказка" id="158"/>
+						</LabelField>
+						<LabelField name="ОбщийПробегНорма" id="183">
+							<DataPath>ОбщийПробегНорма</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Пробег по норме, км</v8:content>
+								</v8:item>
+							</Title>
+							<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
+							<TitleLocation>Left</TitleLocation>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>5</MaxWidth>
+							<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<ContextMenu name="ОбщийПробегНормаКонтекстноеМеню" id="184"/>
+							<ExtendedTooltip name="ОбщийПробегНормаРасширеннаяПодсказка" id="185"/>
 						</LabelField>
 					</ChildItems>
 				</UsualGroup>
@@ -189,17 +218,18 @@
 							<v8:content>Остаток ГСМ</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ChildrenAlign>ItemsLeftTitlesLeft</ChildrenAlign>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ОстатокГСМРасширеннаяПодсказка" id="127"/>
 					<ChildItems>
 						<LabelDecoration name="НадписьОстатокГСМ" id="134">
-							<Height>1</Height>
-							<Font bold="true" kind="AutoFont"/>
+							<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>ГСМ в баке:</v8:content>
+									<v8:content>Основное ГСМ в баке:</v8:content>
 								</v8:item>
 							</Title>
 							<ContextMenu name="НадписьОстатокГСМКонтекстноеМеню" id="135"/>
@@ -213,6 +243,7 @@
 									<v8:content>При получении</v8:content>
 								</v8:item>
 							</Title>
+							<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 							<ContextMenu name="ОстатокТопливаВыездКонтекстноеМеню" id="129"/>
 							<ExtendedTooltip name="ОстатокТопливаВыездРасширеннаяПодсказка" id="130"/>
 							<Events>
@@ -227,6 +258,7 @@
 									<v8:content>При сдаче</v8:content>
 								</v8:item>
 							</Title>
+							<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
 							<ContextMenu name="ОстатокТопливаВозвратКонтекстноеМеню" id="132"/>
 							<ExtendedTooltip name="ОстатокТопливаВозвратРасширеннаяПодсказка" id="133"/>
 							<Events>
@@ -252,11 +284,11 @@
 							<ExtendedTooltip name="ГруппаРасходГСМРасширеннаяПодсказка" id="120"/>
 							<ChildItems>
 								<LabelDecoration name="НадписьРасходГСМ" id="153">
-									<Font bold="true" kind="AutoFont"/>
+									<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Расход топлива (л/100км):</v8:content>
+											<v8:content>Норма:</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="НадписьРасходГСМКонтекстноеМеню" id="154"/>
@@ -267,9 +299,14 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Норма</v8:content>
+											<v8:content>расход топлива, л/100км</v8:content>
 										</v8:item>
 									</Title>
+									<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
+									<HorizontalAlign>Left</HorizontalAlign>
+									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>5</MaxWidth>
 									<ContextMenu name="РасходГСМпоНормеКонтекстноеМеню" id="151"/>
 									<ExtendedTooltip name="РасходГСМпоНормеРасширеннаяПодсказка" id="152"/>
 								</LabelField>
@@ -279,13 +316,137 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Факт</v8:content>
+											<v8:content>- расстояние, км</v8:content>
 										</v8:item>
 									</Title>
-									<HorizontalAlign>Center</HorizontalAlign>
+									<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
+									<HorizontalAlign>Left</HorizontalAlign>
 									<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
 									<ContextMenu name="РасходГСМпоФактуКонтекстноеМеню" id="114"/>
 									<ExtendedTooltip name="РасходГСМпоФактуРасширеннаяПодсказка" id="115"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ОстатокГСМ1" id="161">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Остаток ГСМ1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Остаток ГСМ</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ChildrenAlign>ItemsLeftTitlesLeft</ChildrenAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ОстатокГСМ1РасширеннаяПодсказка" id="162"/>
+					<ChildItems>
+						<LabelDecoration name="НадписьОстатокГСМ1" id="163">
+							<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дополнит. ГСМ в баке:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="НадписьОстатокГСМ1КонтекстноеМеню" id="164"/>
+							<ExtendedTooltip name="НадписьОстатокГСМ1РасширеннаяПодсказка" id="165"/>
+						</LabelDecoration>
+						<InputField name="ОстатокТопливаВыезд1" id="166">
+							<DataPath>ОстатокТопливаВыезд1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>При получении</v8:content>
+								</v8:item>
+							</Title>
+							<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
+							<ContextMenu name="ОстатокТопливаВыезд1КонтекстноеМеню" id="167"/>
+							<ExtendedTooltip name="ОстатокТопливаВыезд1РасширеннаяПодсказка" id="168"/>
+							<Events>
+								<Event name="OnChange">ОстатокТопливаВыездПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="ОстатокТопливаВозврат1" id="169">
+							<DataPath>ОстатокТопливаВозврат1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>При сдаче</v8:content>
+								</v8:item>
+							</Title>
+							<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
+							<ContextMenu name="ОстатокТопливаВозврат1КонтекстноеМеню" id="170"/>
+							<ExtendedTooltip name="ОстатокТопливаВозврат1РасширеннаяПодсказка" id="171"/>
+							<Events>
+								<Event name="OnChange">ОстатокТопливаВозвратПриИзменении</Event>
+							</Events>
+						</InputField>
+						<UsualGroup name="ГруппаРасходГСМ1" id="172">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа расход ГСМ</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа расход ГСМ</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаРасходГСМ1РасширеннаяПодсказка" id="173"/>
+							<ChildItems>
+								<LabelDecoration name="НадписьРасходГСМ1" id="174">
+									<Font ref="style:NormalTextFont" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Норма:</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="НадписьРасходГСМ1КонтекстноеМеню" id="175"/>
+									<ExtendedTooltip name="НадписьРасходГСМ1РасширеннаяПодсказка" id="176"/>
+								</LabelDecoration>
+								<LabelField name="РасходГСМпоНорме1" id="177">
+									<DataPath>РасходГСМпоНорме1</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>расход топлива, л/100км</v8:content>
+										</v8:item>
+									</Title>
+									<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
+									<HorizontalAlign>Left</HorizontalAlign>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>5</MaxWidth>
+									<ContextMenu name="РасходГСМпоНорме1КонтекстноеМеню" id="178"/>
+									<ExtendedTooltip name="РасходГСМпоНорме1РасширеннаяПодсказка" id="179"/>
+								</LabelField>
+								<LabelField name="РасходГСМпоФакту1" id="180">
+									<DataPath>РасходГСМпоНормеКМ1</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>- расстояние, км</v8:content>
+										</v8:item>
+									</Title>
+									<TitleFont ref="style:NormalTextFont" height="8" kind="StyleItem"/>
+									<HorizontalAlign>Left</HorizontalAlign>
+									<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<ContextMenu name="РасходГСМпоФакту1КонтекстноеМеню" id="181"/>
+									<ExtendedTooltip name="РасходГСМпоФакту1РасширеннаяПодсказка" id="182"/>
 								</LabelField>
 							</ChildItems>
 						</UsualGroup>
@@ -315,6 +476,7 @@
 			<EnableDrag>true</EnableDrag>
 			<FileDragMode>AsFile</FileDragMode>
 			<DataPath>Задания</DataPath>
+			<Font ref="style:NormalTextFont" height="9" kind="StyleItem"/>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -374,7 +536,8 @@
 			</SearchControlAddition>
 			<Events>
 				<Event name="ChoiceProcessing">ЗаданияОбработкаВыбора</Event>
-				<Event name="AfterDeleteRow">ЗаданияПослеУдаления</Event>
+				<Event name="AfterDeleteRow">ЗаданияПробегПриИзменении</Event>
+				<Event name="OnChange">ЗаданияПробегПриИзменении</Event>
 			</Events>
 			<ChildItems>
 				<InputField name="ЗаданияДатаУбытия" id="60">
@@ -450,6 +613,7 @@
 			<EnableDrag>true</EnableDrag>
 			<FileDragMode>AsFile</FileDragMode>
 			<DataPath>ГСМ</DataPath>
+			<Font ref="style:NormalTextFont" height="9" kind="StyleItem"/>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -620,11 +784,6 @@
 				</CheckBoxField>
 			</ChildItems>
 		</Table>
-		<Button name="ЗагрузитьИзФайла" id="161">
-			<Type>UsualButton</Type>
-			<CommandName>Form.Command.ЗагрузитьИзФайла</CommandName>
-			<ExtendedTooltip name="ЗагрузитьИзФайлаРасширеннаяПодсказка" id="162"/>
-		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -713,7 +872,7 @@
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
 							<v8:Digits>10</v8:Digits>
-							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:FractionDigits>0</v8:FractionDigits>
 							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
@@ -1174,7 +1333,7 @@
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
 					<v8:Digits>10</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
@@ -1190,7 +1349,7 @@
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
 					<v8:Digits>10</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
@@ -1269,13 +1428,124 @@
 						</v8:NumberQualifiers>
 					</Type>
 				</Column>
+				<Column name="РасходГСМпоНорме1" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расход ГСМпо норме</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>5</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
 			</Columns>
 		</Attribute>
 		<Attribute name="ОбщийПробег" id="27">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Общий пробег</v8:content>
+					<v8:content>Общий Пробег</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОстатокТопливаВозврат1" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остаток топлива возврат1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>6</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОстатокТопливаВыезд1" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остаток топлива выезд1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>6</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РасходГСМпоНорме1" id="30">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расход ГСМ по норме</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>5</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РасходГСМпоНормеКМ" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расход ГСМ по норме</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>5</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РасходГСМпоНормеКМ1" id="32">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расход ГСМ по норме</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>5</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбщийПробегНорма" id="33">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общий Пробег по Норме</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
